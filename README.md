@@ -2,6 +2,10 @@
 
 A responsive, high-fashion editorial boutique website built with pure semantic HTML5, modern CSS3, and vanilla JavaScript. SÉRAINE pairs a sophisticated palette of warm ivory, oyster, and smoked mauve with Cormorant Garamond serif and Manrope geometric typography, bespoke local photography, and a folded-ribbon brand mark.
 
+## Live Site
+
+https://teknritsolutions-2.github.io/Clothing-Fashion-Boutique/
+
 ## Project Overview
 
 SÉRAINE is designed as an immersive fashion experience reflecting the elegance of a Palermo atelier. The project provides two distinct homepage presentations alongside comprehensive collection discovery, lookbooks, an editorial journal, store information, and customer service pages.
