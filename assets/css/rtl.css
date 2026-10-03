@@ -1,10 +1,2 @@
-html[dir="rtl"] .drawer{margin:0 0 0 auto;border-inline-end:0;border-inline-start:1px solid var(--border)}
-html[dir="rtl"] .arrow,html[dir="rtl"] .journal-lines>a>span:last-child,html[dir="rtl"] .category-visual h3 span{transform:scaleX(-1)}
-html[dir="rtl"] .text-link:hover .arrow{transform:scaleX(-1) translate(3px,-3px)}
-html[dir="rtl"] .hero-haze{background:linear-gradient(270deg,rgba(70,89,77,1) 0 37%,rgba(70,89,77,.84) 48%,transparent 68%)}
-html[dir="rtl"] .campaign-strip:after{background:linear-gradient(270deg,transparent,rgba(20,26,23,.88) 70%)}
-html[dir="rtl"] .wardrobe-campaign-scroll{transform:translateX(50%)}
-html[dir="rtl"] .slider-controls [data-slide="prev"],html[dir="rtl"] .slider-controls [data-slide="next"]{transform:scaleX(-1)}
-html[dir="rtl"] .price{direction:ltr;text-align:right}
-@media(max-width:1024px){html[dir="rtl"] .hero-haze{background:linear-gradient(270deg,rgba(70,89,77,1) 0 34%,rgba(70,89,77,.9) 44%,transparent 75%)}}
-@media(max-width:639px){html[dir="rtl"] .hero-haze{background:linear-gradient(0deg,var(--charcoal) 0 44%,rgba(36,42,40,.7) 58%,transparent 74%)}html[dir="rtl"] .campaign-strip:after{background:linear-gradient(0deg,rgba(20,26,23,.93),transparent 80%)}}
+html[dir="rtl"] .arrow{transform:scaleX(-1)}html[dir="rtl"] .product-meta,html[dir="rtl"] .section-heading,html[dir="rtl"] .shop-toolbar{text-align:right}html[dir="rtl"] .panorama-hero::after{background:linear-gradient(-90deg,rgba(30,27,30,.68),rgba(30,27,30,.1) 70%)}html[dir="rtl"] .fit-stage:not(:last-child)::after{content:"←"}html[dir="rtl"] .drawer{inset-inline-start:auto;inset-inline-end:0}@media(max-width:520px){html[dir="rtl"] .drawer[open]{animation:drawer-in-rtl .25s ease-out}@keyframes drawer-in-rtl{from{transform:translateX(100%)}to{transform:none}}}
+html[dir="rtl"] .drawer{left:auto;right:0}
