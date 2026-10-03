@@ -641,62 +641,6 @@ const PIECES = [
     "arrival": 45,
     "sale": true,
     "image": "sale-aurelie.webp"
-  },
-  {
-    "id": "colette",
-    "name": "The Colette Halter Dress",
-    "gender": "Women",
-    "occasion": "Evening",
-    "type": "Dresses",
-    "color": "Pearl",
-    "material": "Smooth satin",
-    "price": 210,
-    "original": 295,
-    "arrival": 46,
-    "sale": true,
-    "image": "sale-colette.webp"
-  },
-  {
-    "id": "camille",
-    "name": "The Camille Blazer",
-    "gender": "Women",
-    "occasion": "Work",
-    "type": "Outerwear",
-    "color": "Caramel",
-    "material": "Soft woven cloth",
-    "price": 185,
-    "original": 255,
-    "arrival": 47,
-    "sale": true,
-    "image": "sale-camille.webp"
-  },
-  {
-    "id": "julien",
-    "name": "The Julien Shirt",
-    "gender": "Men",
-    "occasion": "Weekend",
-    "type": "Shirts",
-    "color": "Chalk",
-    "material": "Light linen blend",
-    "price": 125,
-    "original": 175,
-    "arrival": 48,
-    "sale": true,
-    "image": "sale-julien.webp"
-  },
-  {
-    "id": "estelle",
-    "name": "The Estelle Coat",
-    "gender": "Women",
-    "occasion": "Seasonal",
-    "type": "Outerwear",
-    "color": "Stone",
-    "material": "Soft wool blend",
-    "price": 245,
-    "original": 345,
-    "arrival": 49,
-    "sale": true,
-    "image": "sale-estelle.webp"
   }
 ];
 (() => {
@@ -726,7 +670,7 @@ const PIECES = [
       button.textContent = root.dir.toUpperCase();
       button.setAttribute('aria-label', `Switch to ${root.dir === 'rtl' ? 'left-to-right' : 'right-to-left'} layout`);
     });
-    $('meta[name=theme-color]').content = dark ? '#151216' : '#FBF9F7';
+    $('meta[name=theme-color]').content = dark ? '#171C1A' : '#F7F5F0';
   };
   const setTheme = value => { root.dataset.theme = value; storePreference('seraine-theme', value); updateDisplay(); };
   const setDirection = value => { root.dir = value; storePreference('seraine-dir', value); updateDisplay(); window.dispatchEvent(new Event('seraine:direction')); };
@@ -749,10 +693,13 @@ const PIECES = [
       if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
     });
   });
-  const homeDropdown = $('.home-dropdown');
-  document.addEventListener('click', event => { if (!homeDropdown.contains(event.target)) homeDropdown.open = false; });
-  document.addEventListener('keydown', event => { if (event.key === 'Escape') homeDropdown.open = false; });
-  compact.addEventListener('change', () => { if (!compact.matches && drawer.open) drawer.close(); homeDropdown.open = false; });
+  const navDropdowns = $$('.nav-dropdown');
+  navDropdowns.forEach(dropdown => dropdown.addEventListener('toggle', () => {
+    if (dropdown.open) navDropdowns.filter(item => item !== dropdown).forEach(item => { item.open = false; });
+  }));
+  document.addEventListener('click', event => navDropdowns.forEach(dropdown => { if (!dropdown.contains(event.target)) dropdown.open = false; }));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') navDropdowns.forEach(dropdown => { dropdown.open = false; }); });
+  compact.addEventListener('change', () => { if (!compact.matches && drawer.open) drawer.close(); navDropdowns.forEach(dropdown => { dropdown.open = false; }); });
 
   // Native scroll-snap supports touch, trackpads, keyboard and both directions.
   const sliders = $$('.peer-slider').map(slider => {
@@ -826,6 +773,15 @@ const PIECES = [
         grid.appendChild(card);
       });
       $('#piece-count').textContent = `${count} ${count === 1 ? 'piece' : 'pieces'}`;
+      const active = $('#active-filters');
+      if (active) {
+        active.replaceChildren(...Object.entries(values).filter(([,value]) => value).map(([key,value]) => {
+          const chip = document.createElement('span');
+          chip.className = 'active-filter';
+          chip.textContent = `${key[0].toUpperCase()+key.slice(1)}: ${value}`;
+          return chip;
+        }));
+      }
       $('.empty-state').hidden = count > 0;
       const url = new URL(location.href);
       ['gender','occasion','type'].forEach(key => values[key] ? url.searchParams.set(key, values[key]) : url.searchParams.delete(key));
@@ -978,4 +934,5 @@ const PIECES = [
   const top = $('.scroll-top');
   window.addEventListener('scroll', () => { top.hidden = scrollY < 600; }, {passive:true});
   top.addEventListener('click', () => window.scrollTo({top:0,behavior:reducedMotion.matches?'instant':'smooth'}));
+  $$('[data-scroll-top]').forEach(button => button.addEventListener('click', () => window.scrollTo({top:0,behavior:reducedMotion.matches?'instant':'smooth'})));
 })();

@@ -1,1 +1,15 @@
-html[data-theme=dark]{--bg:#151216;--surface:#1d191f;--surface-soft:#262027;--surface-mist:#29232d;--text:#faf7fa;--secondary:#cdc5ce;--muted:#b0a6b1;--border:rgba(230,220,231,.2);--primary:#cfc1d0;--on-primary:#2e2730;color-scheme:dark}html[data-theme=dark] .site-header{background:#151216f5}html[data-theme=dark] .footer-wordmark{color:#806b82}html[data-theme=dark] .hero-haze{background:linear-gradient(90deg,#211a2adb 0%,#211a2a96 32%,#211a2a0f 80%),linear-gradient(0deg,#211a2acc,transparent 25%)}html[data-theme=dark] .hero-content,html[data-theme=dark] .hero-content h1 em,html[data-theme=dark] .hero-content p,html[data-theme=dark] .hero-topline,html[data-theme=dark] .hero-side,html[data-theme=dark] .hero-bottom{color:#faf7fa}html[data-theme=dark] .hero-button{background:#cfc1d0;border-color:#cfc1d0;color:#2e2730}html[data-theme=dark] .button:hover{background:#e2d9e3;color:#2e2730;border-color:#e2d9e3}html[data-theme=dark] .not-found:after{opacity:.88}@media(max-width:639px){html[data-theme=dark] .hero-haze{background:linear-gradient(0deg,#211a2af5 0%,#211a2adb 24%,#211a2a52 58%,#211a2a36 100%)}}
+html[data-theme="dark"]{--bg:#171c1a;--surface:#202724;--surface-soft:#29312d;--text:#f6f5f1;--secondary:#c2c9c5;--border:#3b4640;--primary:#8fa494;--accent:#d08d73;--sage-soft:#2b3931;--clay-soft:#3b2d28;--shadow:0 20px 55px rgba(0,0,0,.24);color-scheme:dark}
+html[data-theme="dark"] .site-header{background:rgba(32,39,36,.95)}
+html[data-theme="dark"] .nav-dropdown>div{background:var(--surface)}
+html[data-theme="dark"] .button{color:#fff}
+html[data-theme="dark"] .product-tag{background:#202724;color:#fff}
+html[data-theme="dark"] .contact-intro>div:last-child{background:#3b2d28}
+html[data-theme="dark"] body[data-page="sale.html"] .page-title{background:#864d3a}
+html[data-theme="dark"] body[data-page="contact.html"] .page-title{background:#46594d}
+html[data-theme="dark"] .theme-icon.moon{box-shadow:inset 6px -4px 0 var(--surface)}
+html[data-theme="dark"] input,html[data-theme="dark"] select,html[data-theme="dark"] textarea{color-scheme:dark}
+html[data-theme="dark"]{--primary:#617567}
+html[data-theme="dark"] .eyebrow{color:#a9bcae}
+html[data-theme="dark"] .desktop-nav a:hover,html[data-theme="dark"] .desktop-nav summary:hover,html[data-theme="dark"] .desktop-nav [aria-current=page],html[data-theme="dark"] .drawer nav [aria-current=page]{color:#a9bcae}
+html[data-theme="dark"] .hero-content .eyebrow,html[data-theme="dark"] .wardrobe-campaign-copy .eyebrow,html[data-theme="dark"] .palette-section .eyebrow,html[data-theme="dark"] body[data-page="sale.html"] .page-title .eyebrow,html[data-theme="dark"] body[data-page="contact.html"] .page-title .eyebrow{color:#fff}
+html[data-theme="dark"] .not-found h1{color:#a9bcae}
