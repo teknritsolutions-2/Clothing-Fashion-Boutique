@@ -1,6 +1,6 @@
 # SÉRAINE — Clothing & Fashion Boutique
 
-A responsive, high-fashion editorial boutique website built with pure semantic HTML5, modern CSS3, and vanilla JavaScript. SÉRAINE pairs a sophisticated palette of warm ivory, oyster, and smoked mauve with Cormorant Garamond serif and Manrope geometric typography, bespoke local photography, and a folded-ribbon brand mark.
+A responsive, contemporary clothing boutique website built with semantic HTML5, modern CSS3, and vanilla JavaScript. SÉRAINE uses an approachable warm-ivory, sage, clay, and charcoal palette, clear Manrope typography, locally stored fashion photography, and a compact folded-fabric brand mark.
 
 ## Live Site
 
@@ -8,20 +8,20 @@ https://teknritsolutions-2.github.io/Clothing-Fashion-Boutique/
 
 ## Project Overview
 
-SÉRAINE is designed as an immersive fashion experience reflecting the elegance of a Palermo atelier. The project provides two distinct homepage presentations alongside comprehensive collection discovery, lookbooks, an editorial journal, store information, and customer service pages.
+SÉRAINE is designed as a practical, welcoming fashion boutique for curated everyday wear. The project provides two distinct homepage experiences alongside catalogue filtering, seasonal lookbooks, an accessible style journal, store information, and customer enquiry tools.
 
 ## Major Pages
 
 All website pages reside in the `pages/` directory:
 
-- **`index.html`**: Campaign-led Home Page 1 featuring seasonal hero imagery, new arrivals, editorial highlights, and atelier story.
+- **`index.html`**: Product-led Home Page 1 featuring seasonal imagery, categories, new arrivals, styling ideas, and shopping calls to action.
 - **`home-2.html`**: Wardrobe-discovery Home Page 2 with daily rotation edits and curated garment spotlights.
 - **`about.html`**: Atelier heritage, design philosophy, and craftsmanship standards.
 - **`shop.html`**: Full boutique catalogue featuring instant client-side multi-facet filtering and sorting.
 - **`product-details.html`**: In-depth piece showcase with dedicated typography and quick view modal dialogs.
 - **`new-arrivals.html`**: Latest runway and seasonal releases with instant modal quick views.
 - **`sale.html`**: Curated archive pieces displaying original and promotional prices.
-- **`lookbook.html`**: High-fashion visual study emphasizing silhouette motion and textile drape.
+- **`lookbook.html`**: Image-led seasonal styling story emphasizing silhouette, movement, and texture.
 - **`style-guide.html`**: Curated journal index covering tailoring, fabric care, proportions, and layering.
 - **`article-details.html`**: Dynamic editorial reader displaying selected articles with pull quotes.
 - **`contact.html`**: Palermo boutique location, embedded interactive map, visiting hours, and client enquiry form.
@@ -32,13 +32,13 @@ All website pages reside in the `pages/` directory:
 
 ## Key Features
 
-- **Light & Dark Themes**: High-contrast, meticulously calibrated light and dark modes with instant toggle and `localStorage` persistence.
+- **Light & Dark Themes**: Purpose-designed light and dark palettes with instant toggle and `localStorage` persistence.
 - **Bidirectional Support (LTR / RTL)**: Native right-to-left language support with mirrored navigation, transformed controls, and preserved photograph orientation.
 - **Responsive Layout**: Fluid adaptability across mobile (360px–430px), tablet (640px–1024px), and wide desktop (1024px–1440px+) viewports.
 - **Interactive Shop Filtering**: Filter by gender (Women, Men, Unisex), occasion (Evening, Work, Weekend, Seasonal), and clothing type with real-time inventory counts and price sorting.
 - **Product Quick View**: Native `<dialog>` modal showing material composition, care instructions, size selection (`XS`–`XL`), and enquiry generation.
 - **Editorial Filmstrips & Sliders**: Smooth scroll-snap carousels with keyboard navigation, touch swipe support, and pause-on-interaction controls.
-- **Scroll Reveal Animations**: Graceful entrance animations driven by a single unified `IntersectionObserver` that respects `prefers-reduced-motion`.
+- **Scroll Reveal Animations**: Subtle transform-based entrance animations driven by one `IntersectionObserver`, with full-opacity text and reduced-motion support.
 - **Client Enquiry System**: Validates requests in-browser, prepares downloadable text summaries, and drafts email client messages without requiring external servers.
 
 ## Local Static Usage
@@ -50,7 +50,7 @@ No build tools, compilation, or package manager installations are required. Serv
 python3 -m http.server 8080
 ```
 
-Then open `http://localhost:8080/pages/index.html` in any modern web browser.
+Then open `http://localhost:8080/` in any modern web browser.
 
 ## File Structure
 

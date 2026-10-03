@@ -47,11 +47,11 @@ Six article variants are selected using the `story` query parameter: `tailoring`
 - Photographs remain natural in dark mode and are never mirrored for RTL.
 - Motion respects `prefers-reduced-motion`; peer sliders have visible play/pause controls.
 
-Use the image inventory when replacing photography. Keep descriptive alternative text, intrinsic image dimensions, and one intentional photo placement per asset. Standard product and journal card photographs fill a consistent 3:4 frame with `object-fit: cover`. Preserve the subject using the source’s composition and focal point; do not introduce letterboxing. Editorial mattes remain only in deliberately framed standalone compositions.
+Use the image inventory when replacing photography. Keep descriptive alternative text, intrinsic image dimensions, and one intentional photo placement per asset. Standard product cards use a consistent portrait frame with `object-fit: cover`; journal cards use a wider frame. Preserve the subject using the source’s composition and focal point and avoid letterboxing.
 
 ## Shared supporting typography
 
-Use the `--type-*` tokens in `style.css`: body 17px on desktop / 16px on compact layouts; small body 16px; navigation 16px; product metadata 15px; article metadata and eyebrows 14px / 13px on mobile; utility text 13px; controls 15px / 14px on mobile. Display headings keep their established sizes.
+Body copy defaults to 16px with a comfortable 1.65 line-height. Navigation is 14px, product metadata is 13px, and utility labels are 11–13px with heavier weight. Responsive display headings use `clamp()` and remain sans-led; Cormorant italic is reserved for short accents.
 
 ## Section spacing and motion
 

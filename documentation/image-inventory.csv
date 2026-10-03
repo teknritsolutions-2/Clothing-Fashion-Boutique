@@ -1,4 +1,5 @@
 filename,page,section,usage_count,source
+seraine-mark.svg,all pages,header footer and favicon,3,Original project artwork
 lost-in-motion.webp,404.html,lost-in-motion,1,https://www.pexels.com/photo/16400335/
 about-fashion-philosophy.webp,about.html,about-fashion-philosophy,1,https://www.pexels.com/photo/36701526/
 about-atelier-process.webp,about.html,about-atelier-process,1,https://www.pexels.com/photo/9853298/
@@ -51,10 +52,6 @@ sale-muse-knit.webp,sale.html,product-image,1,https://www.pexels.com/photo/12403
 sale-noemie.webp,sale.html,product-image,1,https://www.pexels.com/photo/32119951/
 sale-violette.webp,sale.html,product-image,1,https://www.pexels.com/photo/7737836/
 sale-aurelie.webp,sale.html,product-image,1,https://www.pexels.com/photo/31876683/
-sale-colette.webp,sale.html,product-image,1,https://www.pexels.com/photo/33935174/
-sale-camille.webp,sale.html,product-image,1,https://www.pexels.com/photo/23531830/
-sale-julien.webp,sale.html,product-image,1,https://www.pexels.com/photo/5270533/
-sale-estelle.webp,sale.html,product-image,1,https://www.pexels.com/photo/20837400/
 shop-celine-coat.webp,shop.html,product-image,1,https://www.pexels.com/photo/20868094/
 shop-lyra-blazer.webp,shop.html,product-image,1,https://www.pexels.com/photo/23531831/
 shop-arden-coat.webp,shop.html,product-image,1,https://www.pexels.com/photo/6211656/
