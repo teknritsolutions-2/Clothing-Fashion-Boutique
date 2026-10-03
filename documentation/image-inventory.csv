@@ -1,78 +1,37 @@
 filename,page,section,usage_count,source
 seraine-mark.svg,all pages,header footer and favicon,3,Original project artwork
-lost-in-motion.webp,404.html,lost-in-motion,1,https://www.pexels.com/photo/16400335/
-about-fashion-philosophy.webp,about.html,about-fashion-philosophy,1,https://www.pexels.com/photo/36701526/
-about-atelier-process.webp,about.html,about-atelier-process,1,https://www.pexels.com/photo/9853298/
-article-tailoring-in-light.webp,article-details.html,landscape article hero,1,https://www.pexels.com/photo/26741255/
-article-fabric-detail.webp,article-details.html,article-fabric-detail,1,https://www.pexels.com/photo/4108794/
-contact-boutique-interior.webp,contact.html,contact-boutique-interior,1,https://www.pexels.com/photo/4940756/
-wardrobe-open-light.webp,home-2.html,wardrobe-campaign,1,https://www.pexels.com/photo/34534926/
-wardrobe-rowan-knit.webp,home-2.html,product-image,1,https://www.pexels.com/photo/35568697/
-wardrobe-ambre-coat.webp,home-2.html,product-image,1,https://www.pexels.com/photo/7762479/
-wardrobe-ellis-suit.webp,home-2.html,product-image,1,https://www.pexels.com/photo/35633114/
-wardrobe-edit-coat.webp,home-2.html,wardrobe-edit-coat,1,https://www.pexels.com/photo/20868091/
-wardrobe-texture-in-motion.webp,home-2.html,seasonal campaign strip,1,https://www.pexels.com/photo/28609631/
-campaign-soft-motion.webp,index.html,hero-photo,1,https://www.pexels.com/photo/30039324/
-arrival-elise-dress.webp,index.html,product-image,1,https://www.pexels.com/photo/13816066/
-arrival-lise-knit.webp,index.html,product-image,1,https://www.pexels.com/photo/31036772/
-arrival-nocturne-jacket.webp,index.html,product-image,1,https://www.pexels.com/photo/19663776/
-arrival-flore-dress.webp,index.html,product-image,1,https://www.pexels.com/photo/31649583/
-home-womens-edit.webp,index.html,home-womens-edit,1,https://www.pexels.com/photo/20868096/
-home-mens-edit.webp,index.html,home-mens-edit,1,https://www.pexels.com/photo/35466544/
-home-lookbook-drapery.webp,index.html,home-lookbook-drapery,1,https://www.pexels.com/photo/36752359/
-home-journal-tailoring.webp,index.html,home-journal-tailoring,1,https://www.pexels.com/photo/17445180/
-home-journal-textures.webp,index.html,home-journal-textures,1,https://www.pexels.com/photo/3799361/
-home-journal-evening.webp,index.html,home-journal-evening,1,https://www.pexels.com/photo/19002588/
-lookbook-golden-drape.webp,lookbook.html,lookbook-golden-drape,1,https://www.pexels.com/photo/36767755/
-lookbook-blue-fabric.webp,lookbook.html,lookbook-blue-fabric,1,https://www.pexels.com/photo/35884638/
-lookbook-motion-study.webp,lookbook.html,lookbook-motion-study,1,https://www.pexels.com/photo/35206886/
-lookbook-flowing-silhouette.webp,lookbook.html,lookbook-flowing-silhouette,1,https://www.pexels.com/photo/36849247/
-new-season-white-dress.webp,new-arrivals.html,new-season-white-dress,1,https://www.pexels.com/photo/14610774/
-new-marin-coat.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/19768568/
-new-nuit-blazer.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/9279393/
-new-eline-dress.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/36139907/
-new-arrivals-amelie.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/20364770/
-new-arrivals-etienne.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/26336892/
-new-arrivals-theo.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/20051870/
-new-arrivals-claire.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/7945662/
-new-arrivals-rosalie.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/14472214/
-new-arrivals-ines.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/22638310/
-new-arrivals-soline.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/18343545/
-new-arrivals-remy.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/18153495/
-new-arrivals-lea.webp,new-arrivals.html,product-image,1,https://www.pexels.com/photo/27869970/
-motion-frame-1.webp,new-arrivals.html,fashion filmstrip,1,https://www.pexels.com/photo/18031037/
-motion-frame-2.webp,new-arrivals.html,fashion filmstrip,1,https://www.pexels.com/photo/19357652/
-motion-frame-3.webp,new-arrivals.html,fashion filmstrip,1,https://www.pexels.com/photo/4456601/
-motion-frame-4.webp,new-arrivals.html,fashion filmstrip,1,https://www.pexels.com/photo/20087351/
-solenne-gown-editorial.webp,product-details.html,solenne-gown-editorial,1,https://www.pexels.com/photo/36767743/
-solenne-gown-front.webp,product-details.html,solenne-gown-front,1,https://www.pexels.com/photo/36767754/
-sale-ivie-jacket.webp,sale.html,product-image,1,https://www.pexels.com/photo/18506627/
-sale-pierre-suit.webp,sale.html,product-image,1,https://www.pexels.com/photo/31809867/
-sale-muse-knit.webp,sale.html,product-image,1,https://www.pexels.com/photo/12403078/
-sale-noemie.webp,sale.html,product-image,1,https://www.pexels.com/photo/32119951/
-sale-violette.webp,sale.html,product-image,1,https://www.pexels.com/photo/7737836/
-sale-aurelie.webp,sale.html,product-image,1,https://www.pexels.com/photo/31876683/
-shop-celine-coat.webp,shop.html,product-image,1,https://www.pexels.com/photo/20868094/
-shop-lyra-blazer.webp,shop.html,product-image,1,https://www.pexels.com/photo/23531831/
-shop-arden-coat.webp,shop.html,product-image,1,https://www.pexels.com/photo/6211656/
-shop-milo-polo.webp,shop.html,product-image,1,https://www.pexels.com/photo/24509672/
-shop-aure-knit-dress.webp,shop.html,product-image,1,https://www.pexels.com/photo/28698974/
-shop-soren-suit.webp,shop.html,product-image,1,https://www.pexels.com/photo/29242239/
-shop-rue-blazer.webp,shop.html,product-image,1,https://www.pexels.com/photo/9197354/
-shop-dune-coat.webp,shop.html,product-image,1,https://www.pexels.com/photo/10626542/
-shop-celeste.webp,shop.html,product-image,1,https://www.pexels.com/photo/13776727/
-shop-alba.webp,shop.html,product-image,1,https://www.pexels.com/photo/18532851/
-shop-sylvie.webp,shop.html,product-image,1,https://www.pexels.com/photo/17153254/
-shop-leon.webp,shop.html,product-image,1,https://www.pexels.com/photo/3664444/
-shop-adrien.webp,shop.html,product-image,1,https://www.pexels.com/photo/5044977/
-shop-lucien.webp,shop.html,product-image,1,https://www.pexels.com/photo/14554415/
-shop-maelle.webp,shop.html,product-image,1,https://www.pexels.com/photo/10055278/
-shop-odette.webp,shop.html,product-image,1,https://www.pexels.com/photo/27153709/
-shop-anais.webp,shop.html,product-image,1,https://www.pexels.com/photo/16564575/
-shop-bastien.webp,shop.html,product-image,1,https://www.pexels.com/photo/5149728/
-shop-elio.webp,shop.html,product-image,1,https://www.pexels.com/photo/19189082/
-shop-inaya.webp,shop.html,product-image,1,https://www.pexels.com/photo/35965613/
-journal-feature-tailoring.webp,style-guide.html,journal-feature-tailoring,1,https://www.pexels.com/photo/35165348/
-journal-proportions.webp,style-guide.html,journal-proportions,1,https://www.pexels.com/photo/10626543/
-journal-monochrome.webp,style-guide.html,journal-monochrome,1,https://www.pexels.com/photo/15529124/
-journal-day-to-night.webp,style-guide.html,journal-day-to-night,1,https://www.pexels.com/photo/12447662/
+v2-home-hero.jpg,index.html,split hero and Workday lookbook,2,https://www.pexels.com/photo/7679891/
+v2-home2-hero.jpg,home-2.html,panoramic hero,1,https://www.pexels.com/photo/8111796/
+v2-workday.jpg,index.html,Shop by Occasion Work panel,1,https://www.pexels.com/photo/8171203/
+v2-office.jpg,index home-2 lookbook,office and seasonal stories,3,https://www.pexels.com/photo/7959844/
+about-atelier-process.webp,about.html,tailoring story,1,https://www.pexels.com/photo/9853298/
+arrival-elise-dress.webp,catalog,Iris Occasion Dress,1,https://www.pexels.com/photo/13816066/
+arrival-flore-dress.webp,catalog,Clara Midi Dress,1,https://www.pexels.com/photo/31649583/
+arrival-lise-knit.webp,catalog,Sofia Knit Cardigan,1,https://www.pexels.com/photo/31036772/
+home-journal-tailoring.webp,index.html,Everyday Weather panel,1,https://www.pexels.com/photo/17445180/
+journal-day-to-night.webp,style-guide.html,day-to-evening guide,1,https://www.pexels.com/photo/12447662/
+journal-feature-tailoring.webp,style guide article about and home-2,fit and tailoring content,4,https://www.pexels.com/photo/35165348/
+journal-monochrome.webp,style-guide.html,colour guide,1,https://www.pexels.com/photo/15529124/
+journal-proportions.webp,style guide and article,proportion guide,2,https://www.pexels.com/photo/10626543/
+lost-in-motion.webp,404.html,error page,1,https://www.pexels.com/photo/16400335/
+new-arrivals-amelie.webp,catalog and storytelling,Elena Slip Dress and casual panels,3,https://www.pexels.com/photo/20364770/
+new-arrivals-claire.webp,catalog,Mara Cotton Shirt,1,https://www.pexels.com/photo/7945662/
+new-arrivals-etienne.webp,catalog,Alex Tailored Blazer,1,https://www.pexels.com/photo/26336892/
+new-arrivals-ines.webp,catalog and storytelling,Aria Evening Jacket and occasion panels,3,https://www.pexels.com/photo/22638310/
+new-arrivals-remy.webp,catalog and storytelling,Oliver Linen Set and casual panels,3,https://www.pexels.com/photo/18153495/
+new-arrivals-soline.webp,catalog and index,Noor Work Blazer and Warm Days panel,2,https://www.pexels.com/photo/18343545/
+new-arrivals-theo.webp,catalog,Theo Fine Knit,1,https://www.pexels.com/photo/20051870/
+new-marin-coat.webp,catalog,Lena Everyday Overshirt,1,https://www.pexels.com/photo/19768568/
+new-season-white-dress.webp,catalog,Eva Occasion Dress,1,https://www.pexels.com/photo/14610774/
+sale-ivie-jacket.webp,catalog,June Light Jacket,1,https://www.pexels.com/photo/18506627/
+sale-pierre-suit.webp,catalog,Jonah Relaxed Suit,1,https://www.pexels.com/photo/31809867/
+shop-adrien.webp,catalog,Sam Occasion Suit,1,https://www.pexels.com/photo/5044977/
+shop-anais.webp,catalog,Nina Longline Blazer,1,https://www.pexels.com/photo/16564575/
+shop-bastien.webp,catalog,Adrian Linen Shirt,1,https://www.pexels.com/photo/5149728/
+shop-elio.webp,catalog and storytelling,Eli Occasion Suit and evening story,3,https://www.pexels.com/photo/19189082/
+shop-leon.webp,catalog,Luca Everyday Knit,1,https://www.pexels.com/photo/3664444/
+shop-lyra-blazer.webp,catalog,Maya Soft Blazer,1,https://www.pexels.com/photo/23531831/
+shop-milo-polo.webp,catalog,Ben Knit Polo,1,https://www.pexels.com/photo/24509672/
+shop-soren-suit.webp,catalog,Kai Everyday Blazer,1,https://www.pexels.com/photo/29242239/
+wardrobe-ellis-suit.webp,catalog,Mateo Evening Set,1,https://www.pexels.com/photo/35633114/
+wardrobe-rowan-knit.webp,catalog index and article,River Everyday Knit and weather content,3,https://www.pexels.com/photo/35568697/

@@ -8,24 +8,24 @@
 - **Dropdowns**: Accessible native disclosure menus for the two home variants and supporting Discover routes.
 
 ### 2. Product Presentation
-- **Product Card**: Consistent 3:4 aspect ratio cards with `object-fit: cover` photography, product title, category, price, and quick view trigger.
-- **Quick View Dialog**: Native `<dialog>` modal displaying material composition, care notes, colourway, interactive size selector (`XS` to `XL`), and pre-filled enquiry link.
-- **Dedicated Gallery**: Swipeable and navigable image track with thumbnail selectors and RTL-aware scroll coordinates.
+- **Product Card**: Consistent 4:5 cards with `object-fit: cover` photography, product title, category, price, sale state, and quick-view trigger.
+- **Quick View Dialog**: Native `<dialog>` modal displaying fabric, climate, colour and the full product-detail route.
+- **Product Detail**: Dynamic information from the canonical catalogue with size selection and a custom-fit enquiry link.
 
 ### 3. Filters & Sorting
-- **Filter Controls**: Dynamic filtering by Gender (`Women`, `Men`, `Unisex`), Occasion (`Evening`, `Work`, `Weekend`, `Seasonal`), and Type (`Outerwear`, `Tailoring`, `Dresses`, `Knitwear`, `Tops`).
+- **Filter Controls**: Simultaneous filtering by Gender, Occasion, Clothing Type, and Climate, including query-string preselection.
 - **Live Inventory Counter**: Real-time counter reporting the number of matching pieces.
 - **Price Sorting**: Ascending (`Low to High`) and Descending (`High to Low`) client-side sorting.
 - **Compact Filters**: Collapsible mobile filter panel with Apply and Clear actions plus visible active-filter chips.
 
 ### 4. Sliders & Carousels
-- **Editorial Filmstrip**: Smooth scroll-snap carousels with prev/next controls, touch swipe support, autoplay timer, and pause-on-interaction or reduced motion.
+- **Responsive Product Slider**: Four-column desktop selections become horizontal scroll-snap rows with prev/next controls on tablet and mobile.
 - **Single Observer**: Unified IntersectionObserver triggering subtle transform reveals without reducing text contrast or disrupting carousel tracks.
 
 ### 5. Client Enquiry Form
-- **Browser-Side Validation**: Required fields verification, size and piece context preservation, and explicit consent check.
-- **Draft Generation**: Creates downloadable enquiry summaries and pre-populated email client links.
+- **Browser-Side Validation**: Required-field verification with enquiry type, size and product context preservation.
+- **Confirmation State**: Replaces the form action with an accessible in-page status message for this static demonstration.
 
 ### 6. Shared Footer & Help
 - **Compact Footer**: Reuses the exact header brand mark and wordmark, keeps every route discoverable, and includes a working Back-to-top button.
-- **Contact FAQ**: Six keyboard-operable native disclosure panels covering fit, availability, enquiries, exchanges, store visits, and response handling.
+- **Contact FAQ**: Keyboard-operable native disclosure panels covering appointments, fit adjustments and product questions.

@@ -1,6 +1,6 @@
 # SÉRAINE — Clothing & Fashion Boutique
 
-A responsive, contemporary clothing boutique website built with semantic HTML5, modern CSS3, and vanilla JavaScript. SÉRAINE uses an approachable warm-ivory, sage, clay, and charcoal palette, clear Manrope typography, locally stored fashion photography, and a compact folded-fabric brand mark.
+A responsive, contemporary clothing boutique website built with semantic HTML5, modern CSS3, and vanilla JavaScript. SÉRAINE uses its original plum, mauve and warm-ivory palette, clear Manrope typography, locally stored stock photography, and a compact folded-fabric brand mark.
 
 ## Live Site
 
@@ -14,16 +14,16 @@ SÉRAINE is designed as a practical, welcoming fashion boutique for curated ever
 
 All website pages reside in the `pages/` directory:
 
-- **`index.html`**: Product-led Home Page 1 featuring seasonal imagery, categories, new arrivals, styling ideas, and shopping calls to action.
-- **`home-2.html`**: Wardrobe-discovery Home Page 2 with daily rotation edits and curated garment spotlights.
-- **`about.html`**: Atelier heritage, design philosophy, and craftsmanship standards.
-- **`shop.html`**: Full boutique catalogue featuring instant client-side multi-facet filtering and sorting.
-- **`product-details.html`**: In-depth piece showcase with dedicated typography and quick view modal dialogs.
-- **`new-arrivals.html`**: Latest runway and seasonal releases with instant modal quick views.
-- **`sale.html`**: Curated archive pieces displaying original and promotional prices.
-- **`lookbook.html`**: Image-led seasonal styling story emphasizing silhouette, movement, and texture.
-- **`style-guide.html`**: Curated journal index covering tailoring, fabric care, proportions, and layering.
-- **`article-details.html`**: Dynamic editorial reader displaying selected articles with pull quotes.
+- **`index.html`**: Occasion, weather and fit-led Home Page 1 with exactly four featured arrivals.
+- **`home-2.html`**: Distinct outfit-planning Home Page 2 organized around climate and the week ahead.
+- **`about.html`**: Everyday clothing philosophy, sensible fabrics and personal fit.
+- **`shop.html`**: Full 24-piece catalogue with simultaneous filtering and sorting.
+- **`product-details.html`**: Dynamic garment information with climate, fabric and custom-fit enquiry.
+- **`new-arrivals.html`**: Exactly 12 new styles generated from the canonical catalogue.
+- **`sale.html`**: Exactly nine reduced styles with original and sale prices.
+- **`lookbook.html`**: Practical Workday, Weekend & Travel, and Occasion outfit stories.
+- **`style-guide.html`**: Practical guides covering fit, weather, colour and outfit building.
+- **`article-details.html`**: Long-form practical wardrobe guidance.
 - **`contact.html`**: Palermo boutique location, embedded interactive map, visiting hours, and client enquiry form.
 - **`faq.html`**: Accordion disclosures addressing sizing, care, ordering, and appointments.
 - **`privacy.html`**: Clear privacy policy detailing local preference storage and enquiry handling.
@@ -35,11 +35,12 @@ All website pages reside in the `pages/` directory:
 - **Light & Dark Themes**: Purpose-designed light and dark palettes with instant toggle and `localStorage` persistence.
 - **Bidirectional Support (LTR / RTL)**: Native right-to-left language support with mirrored navigation, transformed controls, and preserved photograph orientation.
 - **Responsive Layout**: Fluid adaptability across mobile (360px–430px), tablet (640px–1024px), and wide desktop (1024px–1440px+) viewports.
-- **Interactive Shop Filtering**: Filter by gender (Women, Men, Unisex), occasion (Evening, Work, Weekend, Seasonal), and clothing type with real-time inventory counts and price sorting.
+- **Canonical Catalogue**: One JavaScript dataset contains exactly 24 unique garments: 12 women, 10 men and two unisex.
+- **Interactive Shop Filtering**: Filter by gender, occasion, clothing type and climate with URL preselection, active chips, real-time counts and price sorting.
 - **Product Quick View**: Native `<dialog>` modal showing material composition, care instructions, size selection (`XS`–`XL`), and enquiry generation.
-- **Editorial Filmstrips & Sliders**: Smooth scroll-snap carousels with keyboard navigation, touch swipe support, and pause-on-interaction controls.
+- **Responsive Product Sliders**: Four-column desktop rows become touch-friendly sliders on tablet and mobile.
 - **Scroll Reveal Animations**: Subtle transform-based entrance animations driven by one `IntersectionObserver`, with full-opacity text and reduced-motion support.
-- **Client Enquiry System**: Validates requests in-browser, prepares downloadable text summaries, and drafts email client messages without requiring external servers.
+- **Client Enquiry System**: Validates product, sizing, custom-fit and store-visit requests in the browser.
 
 ## Local Static Usage
 

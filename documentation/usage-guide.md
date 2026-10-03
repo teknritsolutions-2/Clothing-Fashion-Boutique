@@ -21,11 +21,11 @@ Store details, contact metadata, currency, and map endpoints can be adjusted in 
 ```javascript
 const SERAINE_CONFIG = {
   currency: 'USD',
-  locale: 'en',
+  locale: 'en-US',
   enquiryEmail: 'palermo@seraine.example',
   storePhone: '+39 091 000 0000',
   storeAddress: 'SÉRAINE Palermo\nVia della Libertà\nPalermo, Sicily, Italy',
-  openingHours: 'Monday–Saturday: 10:00–19:00\nSunday: Closed',
+  openingHours: 'Monday–Saturday, 10:00–19:00. Sunday closed.',
   mapEmbedUrl: 'https://maps.google.com/maps?...',
   mapDirectionsUrl: 'https://www.google.com/maps/search/?api=1&...'
 };

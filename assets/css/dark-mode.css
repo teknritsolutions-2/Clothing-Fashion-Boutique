@@ -1,15 +1,2 @@
-html[data-theme="dark"]{--bg:#171c1a;--surface:#202724;--surface-soft:#29312d;--text:#f6f5f1;--secondary:#c2c9c5;--border:#3b4640;--primary:#8fa494;--accent:#d08d73;--sage-soft:#2b3931;--clay-soft:#3b2d28;--shadow:0 20px 55px rgba(0,0,0,.24);color-scheme:dark}
-html[data-theme="dark"] .site-header{background:rgba(32,39,36,.95)}
-html[data-theme="dark"] .nav-dropdown>div{background:var(--surface)}
-html[data-theme="dark"] .button{color:#fff}
-html[data-theme="dark"] .product-tag{background:#202724;color:#fff}
-html[data-theme="dark"] .contact-intro>div:last-child{background:#3b2d28}
-html[data-theme="dark"] body[data-page="sale.html"] .page-title{background:#864d3a}
-html[data-theme="dark"] body[data-page="contact.html"] .page-title{background:#46594d}
-html[data-theme="dark"] .theme-icon.moon{box-shadow:inset 6px -4px 0 var(--surface)}
-html[data-theme="dark"] input,html[data-theme="dark"] select,html[data-theme="dark"] textarea{color-scheme:dark}
-html[data-theme="dark"]{--primary:#617567}
-html[data-theme="dark"] .eyebrow{color:#a9bcae}
-html[data-theme="dark"] .desktop-nav a:hover,html[data-theme="dark"] .desktop-nav summary:hover,html[data-theme="dark"] .desktop-nav [aria-current=page],html[data-theme="dark"] .drawer nav [aria-current=page]{color:#a9bcae}
-html[data-theme="dark"] .hero-content .eyebrow,html[data-theme="dark"] .wardrobe-campaign-copy .eyebrow,html[data-theme="dark"] .palette-section .eyebrow,html[data-theme="dark"] body[data-page="sale.html"] .page-title .eyebrow,html[data-theme="dark"] body[data-page="contact.html"] .page-title .eyebrow{color:#fff}
-html[data-theme="dark"] .not-found h1{color:#a9bcae}
+html[data-theme="dark"]{--bg:#211d22;--surface:#2e2830;--surface-soft:#352e36;--surface-mist:#302931;--text:#f7f2f6;--secondary:#c9bec8;--border:rgba(241,231,240,.2);--primary:#cfc1d0}html[data-theme="dark"] body{color-scheme:dark}html[data-theme="dark"] .site-header{background:rgba(33,29,34,.94)}html[data-theme="dark"] .button{background:var(--mauve-600);border-color:var(--mauve-400)}html[data-theme="dark"] .button:hover{background:var(--mauve-500)}html[data-theme="dark"] .button.secondary{background:transparent;color:var(--mauve-200)}html[data-theme="dark"] .split-hero,html[data-theme="dark"] .page-intro,html[data-theme="dark"] .tinted-section{background:#29232a}html[data-theme="dark"] .product-tag,html[data-theme="dark"] .view-piece{background:#2e2830;color:#f7f2f6}html[data-theme="dark"] .active-filters button{background:var(--mauve-800)}html[data-theme="dark"] .final-cta{background:var(--mauve-800)}html[data-theme="dark"] .site-footer{background:#171418}
+html[data-theme="dark"] .guide-feature{background:var(--mauve-900)}

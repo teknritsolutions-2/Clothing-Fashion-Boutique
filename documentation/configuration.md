@@ -7,8 +7,8 @@ At the top of `assets/js/main.js`, edit `SERAINE_CONFIG`:
 | Setting | Purpose |
 | --- | --- |
 | `currency` | An ISO 4217 code used to format every displayed price. Default: `USD`. |
-| `locale` | Number-formatting locale. Default: `en`. |
-| `enquiryEmail` | Destination for a visitor-reviewed email draft. Demo: `palermo@seraine.example`. |
+| `locale` | Number-formatting locale. Default: `en-US`. |
+| `enquiryEmail` | Reserved demonstration contact address: `palermo@seraine.example`. |
 | `storePhone` | Shared demo phone: `+39 091 000 0000`. |
 | `storeAddress` | The shared Palermo demo address shown on Contact and every footer. |
 | `openingHours` | Demo: Monday–Saturday, 10:00–19:00. Sunday closed. |
@@ -21,21 +21,21 @@ Add the business contact identity to the privacy and terms pages, and confirm po
 
 ## Enquiries
 
-The form runs entirely in the visitor’s browser. It validates required fields and explicit privacy consent, prepares the enquiry, and provides a text download. If `enquiryEmail` is set, an additional link opens the user’s email client. Delivery happens only when the visitor sends that email. This is suitable for a static enquiry catalogue.
+The demonstration form runs entirely in the visitor’s browser. It validates the required fields, preserves product and size context from detail pages, and displays an accessible confirmation message. It does not transmit data.
 
 For direct submission in future, connect a chosen form service and change the success message only after its API confirms receipt. Document that service’s data handling in the privacy policy.
 
 ## Catalogue
 
-Product cards are authored in the appropriate HTML page, with `data-gender`, `data-occasion`, `data-type`, `data-price`, `data-arrival`, and `data-sale` attributes. Keep these values aligned with the `PIECES` dataset in `main.js`. Card links use a stable `data-open-piece` identifier.
+The `PIECES` array in `assets/js/main.js` is the canonical product source. It contains exactly 24 records and drives every product grid, quick view and product detail. HTML grids use a `data-catalog` key instead of duplicating product data.
 
-The Shop page filters the pieces displayed there. New Arrivals and Sale have individually curated selections, each with unique photography. Supported shop filters are based on its actual inventory; update select options when adding new clothing types.
+The Shop page filters all 24 pieces by gender, occasion, clothing type and climate. The `COLLECTIONS` object defines the exact Home 1, Home 2, New Arrivals and Sale selections. Keep the required totals at 4, 4, 12 and 9.
 
-Product quick views show material, care, colour, price, fit guidance, size selection, and enquiry links. The dedicated Solenne Gown page presents alternate photographs from the same editorial shoot. Other direct product URLs use individual typographic collection notes to preserve unique image placement.
+Product quick views and details use the same catalogue record. Detail pages carry the product name and selected size into the Contact page custom-fit enquiry.
 
-## Journal
+## Style guide
 
-Six article variants are selected using the `story` query parameter: `tailoring`, `fabrics`, `evening`, `proportions`, `monochrome`, and `layering`. Edit the corresponding `articles` entry in `main.js`. The lead and supporting images belong to the shared Article Details page.
+Style Guide cards link to the practical wardrobe article and its anchored fit, layering and colour sections.
 
 ## Layout and accessibility
 
@@ -45,16 +45,14 @@ Six article variants are selected using the `story` query parameter: `tailoring`
 - Preference storage keys: `seraine-theme` and `seraine-dir`.
 - The navigation drawer and product quick views use native dialogs for focus management and Escape support.
 - Photographs remain natural in dark mode and are never mirrored for RTL.
-- Motion respects `prefers-reduced-motion`; peer sliders have visible play/pause controls.
+- Motion respects `prefers-reduced-motion`; responsive product sliders have visible previous/next controls.
 
 Use the image inventory when replacing photography. Keep descriptive alternative text, intrinsic image dimensions, and one intentional photo placement per asset. Standard product cards use a consistent portrait frame with `object-fit: cover`; journal cards use a wider frame. Preserve the subject using the source’s composition and focal point and avoid letterboxing.
 
 ## Shared supporting typography
 
-Body copy defaults to 16px with a comfortable 1.65 line-height. Navigation is 14px, product metadata is 13px, and utility labels are 11–13px with heavier weight. Responsive display headings use `clamp()` and remain sans-led; Cormorant italic is reserved for short accents.
+Body copy uses a comfortable 1.65 line-height. Navigation and the LTR/RTL control share the same visual size, while compact product and utility labels use stronger tracking. Responsive display headings use `clamp()`; Cormorant is reserved for display headings and short accents.
 
 ## Section spacing and motion
 
-`space-join-light` and `space-join-dark` identify specific adjacent sections that share their rendered background in that theme. The first section loses its bottom padding; the next retains its top padding. `space-after-section` removes an additional section margin when its predecessor already provides the separation. Gradient, image, and mist surface transitions retain their breathing room. There is no blanket section padding reset.
-
-The original single IntersectionObserver handles new content groups and article sections. Peer tracks remain outside reveal transforms. The collection filmstrip uses the existing slider controls, native scroll-snap, six-second timer, and reduced-motion rules.
+The shared `--section` token is 72px on desktop, 52px on tablet and 36px on mobile. Tinted sections provide grouping without stacked padding. One IntersectionObserver adds subtle one-time entrance motion, while content remains visible by default.
