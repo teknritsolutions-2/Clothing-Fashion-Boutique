@@ -21,7 +21,7 @@ Add the business contact identity to the privacy and terms pages, and confirm po
 
 ## Enquiries
 
-The demonstration form runs entirely in the visitor’s browser. It validates the required fields, preserves product and size context from detail pages, and displays an accessible confirmation message. It does not transmit data.
+The demonstration form runs entirely in the visitor’s browser. It validates the required fields, preserves product and size context from detail pages, clearly states that no data was transmitted, and offers a copyable enquiry summary. If `enquiryEmail` is replaced with a real address, submission opens a prefilled email draft for the visitor to review and send.
 
 For direct submission in future, connect a chosen form service and change the success message only after its API confirms receipt. Document that service’s data handling in the privacy policy.
 
@@ -31,7 +31,7 @@ The `PIECES` array in `assets/js/main.js` is the canonical product source. It co
 
 The Shop page filters all 24 pieces by gender, occasion, clothing type and climate. The `COLLECTIONS` object defines the exact Home 1, Home 2, New Arrivals and Sale selections. Keep the required totals at 4, 4, 12 and 9.
 
-Product quick views and details use the same catalogue record. Detail pages carry the product name and selected size into the Contact page custom-fit enquiry.
+Product quick views and details use the same catalogue record. Every record contains four coherent garment photographs; detail pages provide thumbnails, swipe navigation and an accessible lightbox, then carry the product name and selected size into the Contact page custom-fit enquiry.
 
 ## Style guide
 

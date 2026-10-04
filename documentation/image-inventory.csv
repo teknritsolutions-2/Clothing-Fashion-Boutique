@@ -1,37 +1,120 @@
-filename,page,section,usage_count,source
-seraine-mark.svg,all pages,header footer and favicon,3,Original project artwork
-v2-home-hero.jpg,index.html,split hero and Workday lookbook,2,https://www.pexels.com/photo/7679891/
-v2-home2-hero.jpg,home-2.html,panoramic hero,1,https://www.pexels.com/photo/8111796/
-v2-workday.jpg,index.html,Shop by Occasion Work panel,1,https://www.pexels.com/photo/8171203/
-v2-office.jpg,index home-2 lookbook,office and seasonal stories,3,https://www.pexels.com/photo/7959844/
-about-atelier-process.webp,about.html,tailoring story,1,https://www.pexels.com/photo/9853298/
-arrival-elise-dress.webp,catalog,Iris Occasion Dress,1,https://www.pexels.com/photo/13816066/
-arrival-flore-dress.webp,catalog,Clara Midi Dress,1,https://www.pexels.com/photo/31649583/
-arrival-lise-knit.webp,catalog,Sofia Knit Cardigan,1,https://www.pexels.com/photo/31036772/
-home-journal-tailoring.webp,index.html,Everyday Weather panel,1,https://www.pexels.com/photo/17445180/
-journal-day-to-night.webp,style-guide.html,day-to-evening guide,1,https://www.pexels.com/photo/12447662/
-journal-feature-tailoring.webp,style guide article about and home-2,fit and tailoring content,4,https://www.pexels.com/photo/35165348/
-journal-monochrome.webp,style-guide.html,colour guide,1,https://www.pexels.com/photo/15529124/
-journal-proportions.webp,style guide and article,proportion guide,2,https://www.pexels.com/photo/10626543/
-lost-in-motion.webp,404.html,error page,1,https://www.pexels.com/photo/16400335/
-new-arrivals-amelie.webp,catalog and storytelling,Elena Slip Dress and casual panels,3,https://www.pexels.com/photo/20364770/
-new-arrivals-claire.webp,catalog,Mara Cotton Shirt,1,https://www.pexels.com/photo/7945662/
-new-arrivals-etienne.webp,catalog,Alex Tailored Blazer,1,https://www.pexels.com/photo/26336892/
-new-arrivals-ines.webp,catalog and storytelling,Aria Evening Jacket and occasion panels,3,https://www.pexels.com/photo/22638310/
-new-arrivals-remy.webp,catalog and storytelling,Oliver Linen Set and casual panels,3,https://www.pexels.com/photo/18153495/
-new-arrivals-soline.webp,catalog and index,Noor Work Blazer and Warm Days panel,2,https://www.pexels.com/photo/18343545/
-new-arrivals-theo.webp,catalog,Theo Fine Knit,1,https://www.pexels.com/photo/20051870/
-new-marin-coat.webp,catalog,Lena Everyday Overshirt,1,https://www.pexels.com/photo/19768568/
-new-season-white-dress.webp,catalog,Eva Occasion Dress,1,https://www.pexels.com/photo/14610774/
-sale-ivie-jacket.webp,catalog,June Light Jacket,1,https://www.pexels.com/photo/18506627/
-sale-pierre-suit.webp,catalog,Jonah Relaxed Suit,1,https://www.pexels.com/photo/31809867/
-shop-adrien.webp,catalog,Sam Occasion Suit,1,https://www.pexels.com/photo/5044977/
-shop-anais.webp,catalog,Nina Longline Blazer,1,https://www.pexels.com/photo/16564575/
-shop-bastien.webp,catalog,Adrian Linen Shirt,1,https://www.pexels.com/photo/5149728/
-shop-elio.webp,catalog and storytelling,Eli Occasion Suit and evening story,3,https://www.pexels.com/photo/19189082/
-shop-leon.webp,catalog,Luca Everyday Knit,1,https://www.pexels.com/photo/3664444/
-shop-lyra-blazer.webp,catalog,Maya Soft Blazer,1,https://www.pexels.com/photo/23531831/
-shop-milo-polo.webp,catalog,Ben Knit Polo,1,https://www.pexels.com/photo/24509672/
-shop-soren-suit.webp,catalog,Kai Everyday Blazer,1,https://www.pexels.com/photo/29242239/
-wardrobe-ellis-suit.webp,catalog,Mateo Evening Set,1,https://www.pexels.com/photo/35633114/
-wardrobe-rowan-knit.webp,catalog index and article,River Everyday Knit and weather content,3,https://www.pexels.com/photo/35568697/
+filename,referenced_in,usage,source_occurrences,source
+seraine-mark.svg,all pages,brand mark and favicon,17,Original project artwork
+about-atelier-process.webp,about.html,tailoring process,1,https://www.pexels.com/photo/9853298/
+home-1-hero.webp,index.html,home 1 hero,1,https://www.pexels.com/photo/4428045/
+home-2-hero.webp,home-2.html,home 2 hero,1,https://www.pexels.com/photo/4963415/
+occasion-work.webp,index.html,occasion work,1,https://www.pexels.com/photo/7643864/
+occasion-weekend.webp,index.html,occasion weekend,1,https://www.pexels.com/photo/8991163/
+occasion-evening.webp,index.html,occasion evening,1,https://www.pexels.com/photo/12447662/
+outfit-office.webp,home-2.html,outfit office,1,https://www.pexels.com/photo/19654139/
+outfit-casual.webp,home-2.html,outfit casual,1,https://www.pexels.com/photo/3754247/
+outfit-evening.webp,home-2.html,outfit evening,1,https://www.pexels.com/photo/31649572/
+climate-warm.webp,index.html,climate warm,1,https://www.pexels.com/photo/6415382/
+climate-everyday.webp,index.html,climate everyday,1,https://www.pexels.com/photo/16711125/
+climate-cool.webp,index.html,climate cool,1,https://www.pexels.com/photo/34148968/
+lookbook-work.webp,lookbook.html,lookbook work,1,https://www.pexels.com/photo/6457570/
+lookbook-weekend.webp,index.html lookbook.html,lookbook weekend,2,https://www.pexels.com/photo/37679615/
+lookbook-evening.webp,lookbook.html,lookbook evening,1,https://www.pexels.com/photo/31649571/
+guide-layers.webp,style-guide.html,guide layers,1,https://www.pexels.com/photo/7243122/
+guide-knitwear.webp,article-details.html style-guide.html,guide knitwear,2,https://www.pexels.com/photo/12056642/
+guide-colour.webp,style-guide.html,guide colour,1,https://www.pexels.com/photo/22890197/
+guide-proportion.webp,article-details.html style-guide.html,guide proportion,2,https://www.pexels.com/photo/12577230/
+guide-week.webp,article-details.html home-2.html style-guide.html,guide week,3,https://www.pexels.com/photo/16347334/
+personal-fit.webp,about.html,personal fit,1,https://www.pexels.com/photo/9852976/
+not-found.webp,404.html,not found,1,https://www.pexels.com/photo/27383814/
+products/mara-cotton-shirt-1.webp,main.js,mara cotton shirt gallery view 1,1,https://www.pexels.com/photo/7945660/
+products/mara-cotton-shirt-2.webp,main.js,mara cotton shirt gallery view 2,1,https://www.pexels.com/photo/7945661/
+products/mara-cotton-shirt-3.webp,main.js,mara cotton shirt gallery view 3,1,https://www.pexels.com/photo/7945662/
+products/mara-cotton-shirt-4.webp,main.js,mara cotton shirt gallery view 4,1,https://www.pexels.com/photo/7945665/
+products/nina-longline-blazer-1.webp,main.js,nina longline blazer gallery view 1,1,https://www.pexels.com/photo/16564569/
+products/nina-longline-blazer-2.webp,main.js,nina longline blazer gallery view 2,1,https://www.pexels.com/photo/16564570/
+products/nina-longline-blazer-3.webp,main.js,nina longline blazer gallery view 3,1,https://www.pexels.com/photo/16564572/
+products/nina-longline-blazer-4.webp,main.js,nina longline blazer gallery view 4,1,https://www.pexels.com/photo/16564577/
+products/clara-midi-dress-1.webp,main.js,clara midi dress gallery view 1,1,https://www.pexels.com/photo/13816060/
+products/clara-midi-dress-2.webp,main.js,clara midi dress gallery view 2,1,https://www.pexels.com/photo/13816061/
+products/clara-midi-dress-3.webp,main.js,clara midi dress gallery view 3,1,https://www.pexels.com/photo/13816065/
+products/clara-midi-dress-4.webp,main.js,clara midi dress gallery view 4,1,https://www.pexels.com/photo/13816066/
+products/elena-slip-dress-1.webp,main.js,elena slip dress gallery view 1,1,https://www.pexels.com/photo/20364768/
+products/elena-slip-dress-2.webp,main.js,elena slip dress gallery view 2,1,https://www.pexels.com/photo/20364769/
+products/elena-slip-dress-3.webp,main.js,elena slip dress gallery view 3,1,https://www.pexels.com/photo/20364770/
+products/elena-slip-dress-4.webp,main.js,elena slip dress gallery view 4,1,https://www.pexels.com/photo/20364780/
+products/maya-soft-blazer-1.webp,main.js,maya soft blazer gallery view 1,1,https://www.pexels.com/photo/23531828/
+products/maya-soft-blazer-2.webp,main.js,maya soft blazer gallery view 2,1,https://www.pexels.com/photo/23531829/
+products/maya-soft-blazer-3.webp,main.js,maya soft blazer gallery view 3,1,https://www.pexels.com/photo/23531830/
+products/maya-soft-blazer-4.webp,main.js,maya soft blazer gallery view 4,1,https://www.pexels.com/photo/23531831/
+products/sofia-knit-cardigan-1.webp,main.js,sofia knit cardigan gallery view 1,1,https://www.pexels.com/photo/19633366/
+products/sofia-knit-cardigan-2.webp,main.js,sofia knit cardigan gallery view 2,1,https://www.pexels.com/photo/19633367/
+products/sofia-knit-cardigan-3.webp,main.js,sofia knit cardigan gallery view 3,1,https://www.pexels.com/photo/19633368/
+products/sofia-knit-cardigan-4.webp,main.js,sofia knit cardigan gallery view 4,1,https://www.pexels.com/photo/19633370/
+products/aria-evening-jacket-1.webp,main.js,aria evening jacket gallery view 1,1,https://www.pexels.com/photo/26761830/
+products/aria-evening-jacket-2.webp,main.js,aria evening jacket gallery view 2,1,https://www.pexels.com/photo/26761831/
+products/aria-evening-jacket-3.webp,main.js,aria evening jacket gallery view 3,1,https://www.pexels.com/photo/26761834/
+products/aria-evening-jacket-4.webp,main.js,aria evening jacket gallery view 4,1,https://www.pexels.com/photo/26761838/
+products/lena-everyday-overshirt-1.webp,main.js,lena everyday overshirt gallery view 1,1,https://www.pexels.com/photo/19768567/
+products/lena-everyday-overshirt-2.webp,main.js,lena everyday overshirt gallery view 2,1,https://www.pexels.com/photo/19768570/
+products/lena-everyday-overshirt-3.webp,main.js,lena everyday overshirt gallery view 3,1,https://www.pexels.com/photo/19768571/
+products/lena-everyday-overshirt-4.webp,main.js,lena everyday overshirt gallery view 4,1,https://www.pexels.com/photo/19768572/
+products/noor-work-blazer-1.webp,main.js,noor work blazer gallery view 1,1,https://www.pexels.com/photo/22638299/
+products/noor-work-blazer-2.webp,main.js,noor work blazer gallery view 2,1,https://www.pexels.com/photo/22638300/
+products/noor-work-blazer-3.webp,main.js,noor work blazer gallery view 3,1,https://www.pexels.com/photo/22638301/
+products/noor-work-blazer-4.webp,main.js,noor work blazer gallery view 4,1,https://www.pexels.com/photo/22638304/
+products/eva-occasion-dress-1.webp,main.js,eva occasion dress gallery view 1,1,https://www.pexels.com/photo/14610778/
+products/eva-occasion-dress-2.webp,main.js,eva occasion dress gallery view 2,1,https://www.pexels.com/photo/14610779/
+products/eva-occasion-dress-3.webp,main.js,eva occasion dress gallery view 3,1,https://www.pexels.com/photo/14610780/
+products/eva-occasion-dress-4.webp,main.js,eva occasion dress gallery view 4,1,https://www.pexels.com/photo/14610782/
+products/iris-occasion-dress-1.webp,main.js,iris occasion dress gallery view 1,1,https://www.pexels.com/photo/16564581/
+products/iris-occasion-dress-2.webp,main.js,iris occasion dress gallery view 2,1,https://www.pexels.com/photo/16564582/
+products/iris-occasion-dress-3.webp,main.js,iris occasion dress gallery view 3,1,https://www.pexels.com/photo/16564584/
+products/iris-occasion-dress-4.webp,main.js,iris occasion dress gallery view 4,1,https://www.pexels.com/photo/16564585/
+products/june-light-blazer-1.webp,main.js,june light blazer gallery view 1,1,https://www.pexels.com/photo/9514679/
+products/june-light-blazer-2.webp,main.js,june light blazer gallery view 2,1,https://www.pexels.com/photo/9514680/
+products/june-light-blazer-3.webp,main.js,june light blazer gallery view 3,1,https://www.pexels.com/photo/9514683/
+products/june-light-blazer-4.webp,main.js,june light blazer gallery view 4,1,https://www.pexels.com/photo/9514688/
+products/theo-fine-knit-1.webp,main.js,theo fine knit gallery view 1,1,https://www.pexels.com/photo/19189082/
+products/theo-fine-knit-2.webp,main.js,theo fine knit gallery view 2,1,https://www.pexels.com/photo/19189083/
+products/theo-fine-knit-3.webp,main.js,theo fine knit gallery view 3,1,https://www.pexels.com/photo/19189086/
+products/theo-fine-knit-4.webp,main.js,theo fine knit gallery view 4,1,https://www.pexels.com/photo/19189091/
+products/luca-everyday-knit-1.webp,main.js,luca everyday knit gallery view 1,1,https://www.pexels.com/photo/26761835/
+products/luca-everyday-knit-2.webp,main.js,luca everyday knit gallery view 2,1,https://www.pexels.com/photo/26761836/
+products/luca-everyday-knit-3.webp,main.js,luca everyday knit gallery view 3,1,https://www.pexels.com/photo/26761840/
+products/luca-everyday-knit-4.webp,main.js,luca everyday knit gallery view 4,1,https://www.pexels.com/photo/26761845/
+products/sam-navy-suit-1.webp,main.js,sam navy suit gallery view 1,1,https://www.pexels.com/photo/26336888/
+products/sam-navy-suit-2.webp,main.js,sam navy suit gallery view 2,1,https://www.pexels.com/photo/26336889/
+products/sam-navy-suit-3.webp,main.js,sam navy suit gallery view 3,1,https://www.pexels.com/photo/26336890/
+products/sam-navy-suit-4.webp,main.js,sam navy suit gallery view 4,1,https://www.pexels.com/photo/26336892/
+products/oliver-linen-set-1.webp,main.js,oliver linen set gallery view 1,1,https://www.pexels.com/photo/35568686/
+products/oliver-linen-set-2.webp,main.js,oliver linen set gallery view 2,1,https://www.pexels.com/photo/35568688/
+products/oliver-linen-set-3.webp,main.js,oliver linen set gallery view 3,1,https://www.pexels.com/photo/35568690/
+products/oliver-linen-set-4.webp,main.js,oliver linen set gallery view 4,1,https://www.pexels.com/photo/35568697/
+products/kai-everyday-suit-1.webp,main.js,kai everyday suit gallery view 1,1,https://www.pexels.com/photo/9464620/
+products/kai-everyday-suit-2.webp,main.js,kai everyday suit gallery view 2,1,https://www.pexels.com/photo/9464625/
+products/kai-everyday-suit-3.webp,main.js,kai everyday suit gallery view 3,1,https://www.pexels.com/photo/9464630/
+products/kai-everyday-suit-4.webp,main.js,kai everyday suit gallery view 4,1,https://www.pexels.com/photo/9464631/
+products/ben-knit-polo-1.webp,main.js,ben knit polo gallery view 1,1,https://www.pexels.com/photo/24509670/
+products/ben-knit-polo-2.webp,main.js,ben knit polo gallery view 2,1,https://www.pexels.com/photo/24509672/
+products/ben-knit-polo-3.webp,main.js,ben knit polo gallery view 3,1,https://www.pexels.com/photo/24509673/
+products/ben-knit-polo-4.webp,main.js,ben knit polo gallery view 4,1,https://www.pexels.com/photo/24509674/
+products/adrian-linen-shirt-1.webp,main.js,adrian linen shirt gallery view 1,1,https://www.pexels.com/photo/18153490/
+products/adrian-linen-shirt-2.webp,main.js,adrian linen shirt gallery view 2,1,https://www.pexels.com/photo/18153492/
+products/adrian-linen-shirt-3.webp,main.js,adrian linen shirt gallery view 3,1,https://www.pexels.com/photo/18153493/
+products/adrian-linen-shirt-4.webp,main.js,adrian linen shirt gallery view 4,1,https://www.pexels.com/photo/18153494/
+products/mateo-evening-suit-1.webp,main.js,mateo evening suit gallery view 1,1,https://www.pexels.com/photo/35633110/
+products/mateo-evening-suit-2.webp,main.js,mateo evening suit gallery view 2,1,https://www.pexels.com/photo/35633114/
+products/mateo-evening-suit-3.webp,main.js,mateo evening suit gallery view 3,1,https://www.pexels.com/photo/35633115/
+products/mateo-evening-suit-4.webp,main.js,mateo evening suit gallery view 4,1,https://www.pexels.com/photo/35633120/
+products/jonah-relaxed-suit-1.webp,main.js,jonah relaxed suit gallery view 1,1,https://www.pexels.com/photo/31809860/
+products/jonah-relaxed-suit-2.webp,main.js,jonah relaxed suit gallery view 2,1,https://www.pexels.com/photo/31809861/
+products/jonah-relaxed-suit-3.webp,main.js,jonah relaxed suit gallery view 3,1,https://www.pexels.com/photo/31809864/
+products/jonah-relaxed-suit-4.webp,main.js,jonah relaxed suit gallery view 4,1,https://www.pexels.com/photo/31809869/
+products/eli-dark-blazer-1.webp,main.js,eli dark blazer gallery view 1,1,https://www.pexels.com/photo/14391921/
+products/eli-dark-blazer-2.webp,main.js,eli dark blazer gallery view 2,1,https://www.pexels.com/photo/14391922/
+products/eli-dark-blazer-3.webp,main.js,eli dark blazer gallery view 3,1,https://www.pexels.com/photo/14391923/
+products/eli-dark-blazer-4.webp,main.js,eli dark blazer gallery view 4,1,https://www.pexels.com/photo/14391924/
+products/alex-relaxed-tee-1.webp,main.js,alex relaxed tee gallery view 1,1,https://www.pexels.com/photo/26761827/
+products/alex-relaxed-tee-2.webp,main.js,alex relaxed tee gallery view 2,1,https://www.pexels.com/photo/26761828/
+products/alex-relaxed-tee-3.webp,main.js,alex relaxed tee gallery view 3,1,https://www.pexels.com/photo/26761829/
+products/alex-relaxed-tee-4.webp,main.js,alex relaxed tee gallery view 4,1,https://www.pexels.com/photo/26761833/
+products/river-denim-overshirt-1.webp,main.js,river denim overshirt gallery view 1,1,https://www.pexels.com/photo/35568695/
+products/river-denim-overshirt-2.webp,main.js,river denim overshirt gallery view 2,1,https://www.pexels.com/photo/35568696/
+products/river-denim-overshirt-3.webp,main.js,river denim overshirt gallery view 3,1,https://www.pexels.com/photo/35568702/
+products/river-denim-overshirt-4.webp,main.js,river denim overshirt gallery view 4,1,https://www.pexels.com/photo/35568703/

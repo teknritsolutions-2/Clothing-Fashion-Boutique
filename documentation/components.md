@@ -3,14 +3,14 @@
 ## Core UI Components
 
 ### 1. Navigation & Header
-- **Desktop Navbar**: Sticky one-line header with the shared folded-fabric logo, grouped Home and Discover menus, primary shopping routes, theme and direction controls, and a filled **Shop Collection** CTA.
+- **Desktop Navbar**: Sticky one-line header with the shared folded-fabric logo, grouped Home and Discover menus, primary shopping routes, theme and direction controls, and a filled **Login** CTA.
 - **Mobile Drawer**: Scroll-safe native `<dialog>` navigation with full page routing, theme and direction controls, CTA, focus trapping, and Escape dismissal. It enters from the left in LTR and right in RTL.
 - **Dropdowns**: Accessible native disclosure menus for the two home variants and supporting Discover routes.
 
 ### 2. Product Presentation
 - **Product Card**: Consistent 4:5 cards with `object-fit: cover` photography, product title, category, price, sale state, and quick-view trigger.
 - **Quick View Dialog**: Native `<dialog>` modal displaying fabric, climate, colour and the full product-detail route.
-- **Product Detail**: Dynamic information from the canonical catalogue with size selection and a custom-fit enquiry link.
+- **Product Detail**: Four coherent garment views from the canonical catalogue, selectable thumbnails, swipe support, keyboard lightbox controls, size selection and a custom-fit enquiry link.
 
 ### 3. Filters & Sorting
 - **Filter Controls**: Simultaneous filtering by Gender, Occasion, Clothing Type, and Climate, including query-string preselection.
@@ -24,7 +24,7 @@
 
 ### 5. Client Enquiry Form
 - **Browser-Side Validation**: Required-field verification with enquiry type, size and product context preservation.
-- **Confirmation State**: Replaces the form action with an accessible in-page status message for this static demonstration.
+- **Non-sending State**: Clearly states that no enquiry was transmitted while the demonstration address is configured, then offers a copyable enquiry summary. A real configured address opens a prefilled email draft.
 
 ### 6. Shared Footer & Help
 - **Compact Footer**: Reuses the exact header brand mark and wordmark, keeps every route discoverable, and includes a working Back-to-top button.

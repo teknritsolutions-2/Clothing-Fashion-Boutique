@@ -18,7 +18,7 @@ All website pages reside in the `pages/` directory:
 - **`home-2.html`**: Distinct outfit-planning Home Page 2 organized around climate and the week ahead.
 - **`about.html`**: Everyday clothing philosophy, sensible fabrics and personal fit.
 - **`shop.html`**: Full 24-piece catalogue with simultaneous filtering and sorting.
-- **`product-details.html`**: Dynamic garment information with climate, fabric and custom-fit enquiry.
+- **`product-details.html`**: Dynamic four-image garment gallery with climate, fabric and custom-fit enquiry.
 - **`new-arrivals.html`**: Exactly 12 new styles generated from the canonical catalogue.
 - **`sale.html`**: Exactly nine reduced styles with original and sale prices.
 - **`lookbook.html`**: Practical Workday, Weekend & Travel, and Occasion outfit stories.
@@ -29,6 +29,7 @@ All website pages reside in the `pages/` directory:
 - **`privacy.html`**: Clear privacy policy detailing local preference storage and enquiry handling.
 - **`terms.html`**: Boutique terms of service, intellectual property, and sales conditions.
 - **`404.html`**: Bespoke error recovery page with direct navigation back to current collections.
+- **`login.html`**: Honest frontend account page explaining that live authentication is not configured.
 
 ## Key Features
 
@@ -37,10 +38,11 @@ All website pages reside in the `pages/` directory:
 - **Responsive Layout**: Fluid adaptability across mobile (360px–430px), tablet (640px–1024px), and wide desktop (1024px–1440px+) viewports.
 - **Canonical Catalogue**: One JavaScript dataset contains exactly 24 unique garments: 12 women, 10 men and two unisex.
 - **Interactive Shop Filtering**: Filter by gender, occasion, clothing type and climate with URL preselection, active chips, real-time counts and price sorting.
-- **Product Quick View**: Native `<dialog>` modal showing material composition, care instructions, size selection (`XS`–`XL`), and enquiry generation.
+- **Product Galleries**: Every catalogue item has four coherent garment views, selectable thumbnails, swipe controls, and a keyboard-accessible lightbox.
+- **Product Quick View**: Native `<dialog>` modal showing key garment information and the full detail route.
 - **Responsive Product Sliders**: Four-column desktop rows become touch-friendly sliders on tablet and mobile.
 - **Scroll Reveal Animations**: Subtle transform-based entrance animations driven by one `IntersectionObserver`, with full-opacity text and reduced-motion support.
-- **Client Enquiry System**: Validates product, sizing, custom-fit and store-visit requests in the browser.
+- **Client Enquiry System**: Validates product, sizing, custom-fit and store-visit requests, preserves product context, and clearly identifies its non-sending demonstration state.
 
 ## Local Static Usage
 
@@ -83,6 +85,7 @@ Clothing & Fashion Boutique/
 │   ├── style-guide.html
 │   ├── article-details.html
 │   ├── contact.html
+│   ├── login.html
 │   ├── faq.html
 │   ├── privacy.html
 │   ├── terms.html
