@@ -30,6 +30,7 @@ All website pages reside in the `pages/` directory:
 - **`terms.html`**: Boutique terms of service, intellectual property, and sales conditions.
 - **`404.html`**: Bespoke error recovery page with direct navigation back to current collections.
 - **`login.html`**: Focused standalone account screen with browser validation, password visibility control and an honest pending-integration state.
+- **`register.html`**: Matching account-creation screen with confirmation validation, password visibility controls and accurate no-backend messaging.
 
 ## Key Features
 
@@ -87,6 +88,7 @@ Clothing & Fashion Boutique/
 │   ├── article-details.html
 │   ├── contact.html
 │   ├── login.html
+│   ├── register.html
 │   ├── faq.html
 │   ├── privacy.html
 │   ├── terms.html

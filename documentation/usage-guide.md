@@ -14,6 +14,8 @@ python3 -m http.server 8080
 Then visit:
 - Home Page 1: `http://localhost:8080/pages/index.html`
 - Home Page 2: `http://localhost:8080/pages/home-2.html`
+- Login: `http://localhost:8080/pages/login.html`
+- Create account: `http://localhost:8080/pages/register.html`
 
 ## Configuration
 Store details, contact metadata, currency, and map endpoints can be adjusted in `assets/js/main.js` under `SERAINE_CONFIG`:

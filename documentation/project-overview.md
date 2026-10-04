@@ -4,7 +4,7 @@
 SÉRAINE is a contemporary, welcoming clothing boutique focused on practical everyday wear and personal fit. The visual system restores the original warm ivory, plum and mauve palette with clear Manrope typography and Cormorant display accents. The shared folded-fabric symbol appears in the header, mobile drawer, footer, and favicon.
 
 ## Page Hierarchy & Architecture
-The boutique includes 16 complete, responsive static HTML pages organized within `/pages`:
+The boutique includes 17 complete, responsive static HTML pages organized within `/pages`:
 
 - **Home Page 1 (`index.html`)**: Eight-section flow spanning occasion, a four-route clothing-type directory, four arrivals, weather, fit process and seasonal lookbook.
 - **Home Page 2 (`home-2.html`)**: Climate-led outfit planning with four essentials, a compact office/casual/evening board and an editorial personal-fit consultation feature.
@@ -18,6 +18,7 @@ The boutique includes 16 complete, responsive static HTML pages organized within
 - **Article Details (`article-details.html`)**: A complete practical wardrobe article.
 - **Contact (`contact.html`)**: Palermo store information, interactive Google Maps embed, operating hours, labelled non-sending enquiry workflow with helpful placeholders, and a five-question accordion.
 - **Login (`login.html`)**: Standalone account entry point with no storefront chrome, a password visibility control and accurate pending-integration feedback.
+- **Register (`register.html`)**: Matching account-creation form with full name, email, password confirmation, visibility controls and accurate no-backend feedback.
 - **FAQ (`faq.html`)**: Accessible accordion disclosures answering sizing, care, ordering, and boutique appointment questions.
 - **Privacy Policy (`privacy.html`)**: Clear client data protection statements covering client-side preferences and enquiry generation.
 - **Terms & Conditions (`terms.html`)**: Transparent boutique terms, garment care guidelines, and intellectual property notices.

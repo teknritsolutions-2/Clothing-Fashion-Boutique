@@ -31,6 +31,6 @@
 - **Compact Footer**: Reuses the exact header brand mark and wordmark, keeps every route discoverable, and includes a working Back-to-top button.
 - **Contact FAQ**: Keyboard-operable native disclosure panels covering appointments, fit adjustments and product questions.
 
-### 7. Standalone Account Screen
-- **Focused Login**: A self-contained account layout removes public navigation and footer distractions while retaining the SÉRAINE brand and theme control.
-- **Honest Interaction State**: Native email/password validation and a show-password control work locally; submission clearly states that authentication has not been connected and no details were sent.
+### 7. Standalone Account Screens
+- **Focused Login and Registration**: Centered account cards remove public navigation and footer distractions while retaining the SÉRAINE brand and theme control.
+- **Honest Interaction State**: Native email/password validation, password confirmation and visibility controls work locally; submission clearly states that authentication has not been connected and no details were sent or stored.

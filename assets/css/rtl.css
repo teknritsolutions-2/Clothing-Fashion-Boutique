@@ -1,2 +1,3 @@
 html[dir="rtl"] .arrow{transform:scaleX(-1)}html[dir="rtl"] .product-meta,html[dir="rtl"] .section-heading,html[dir="rtl"] .shop-toolbar{text-align:right}html[dir="rtl"] .panorama-hero::after{background:linear-gradient(-90deg,rgba(30,27,30,.68),rgba(30,27,30,.1) 70%)}html[dir="rtl"] .fit-stage:not(:last-child)::after{content:"←"}html[dir="rtl"] .drawer{inset-inline-start:auto;inset-inline-end:0}@media(max-width:520px){html[dir="rtl"] .drawer[open]{animation:drawer-in-rtl .25s ease-out}@keyframes drawer-in-rtl{from{transform:translateX(100%)}to{transform:none}}}
 html[dir="rtl"] .drawer{left:auto;right:0}
+html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3,html[dir="rtl"] p,html[dir="rtl"] label{direction:ltr;unicode-bidi:plaintext}
