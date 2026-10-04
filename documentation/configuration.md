@@ -29,7 +29,7 @@ For direct submission in future, connect a chosen form service and change the su
 
 The `PIECES` array in `assets/js/main.js` is the canonical product source. It contains exactly 24 records and drives every product grid, quick view and product detail. HTML grids use a `data-catalog` key instead of duplicating product data.
 
-The Shop page filters all 24 pieces by gender, occasion, clothing type and climate. The `COLLECTIONS` object defines the exact Home 1, Home 2, New Arrivals and Sale selections. Keep the required totals at 4, 4, 12 and 9.
+The Shop page filters all 24 pieces by gender, occasion, clothing type, climate and the grouped clothing-type routes used by Home Page 1. The `COLLECTIONS` object defines the exact Home 1, Home 2, New Arrivals and Sale selections. Keep the required totals at 4, 4, 12 and 9.
 
 Product quick views and details use the same catalogue record. Every record contains four coherent garment photographs; detail pages provide thumbnails, swipe navigation and an accessible lightbox, then carry the product name and selected size into the Contact page custom-fit enquiry.
 
@@ -47,7 +47,7 @@ Style Guide cards link to the practical wardrobe article and its anchored fit, l
 - Photographs remain natural in dark mode and are never mirrored for RTL.
 - Motion respects `prefers-reduced-motion`; responsive product sliders have visible previous/next controls.
 
-Use the image inventory when replacing photography. Keep descriptive alternative text, intrinsic image dimensions, and one intentional photo placement per asset. Standard product cards use a consistent portrait frame with `object-fit: cover`; journal cards use a wider frame. Preserve the subject using the source’s composition and focal point and avoid letterboxing.
+Use the image inventory when replacing photography. It records every current asset’s source, dimensions, rendered ratio, focal treatment, suitability and crop risk. Keep descriptive alternative text and intentional placement. Standard product cards use a consistent portrait frame with top-aware `object-fit: cover`; product detail stages use `contain`, while journal cards use wider top-aligned frames. Preserve faces and complete garments using the source composition and focal point.
 
 ## Shared supporting typography
 

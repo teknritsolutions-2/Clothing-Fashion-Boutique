@@ -14,8 +14,8 @@ SÉRAINE is designed as a practical, welcoming fashion boutique for curated ever
 
 All website pages reside in the `pages/` directory:
 
-- **`index.html`**: Occasion, weather and fit-led Home Page 1 with exactly four featured arrivals.
-- **`home-2.html`**: Distinct outfit-planning Home Page 2 organized around climate and the week ahead.
+- **`index.html`**: Eight-section Home Page 1 with occasion, clothing-type, arrival, climate, personal-fit and lookbook routes.
+- **`home-2.html`**: Distinct outfit-planning Home Page 2 organized around climate, the week ahead and personal fit support.
 - **`about.html`**: Everyday clothing philosophy, sensible fabrics and personal fit.
 - **`shop.html`**: Full 24-piece catalogue with simultaneous filtering and sorting.
 - **`product-details.html`**: Dynamic four-image garment gallery with climate, fabric and custom-fit enquiry.
@@ -29,7 +29,7 @@ All website pages reside in the `pages/` directory:
 - **`privacy.html`**: Clear privacy policy detailing local preference storage and enquiry handling.
 - **`terms.html`**: Boutique terms of service, intellectual property, and sales conditions.
 - **`404.html`**: Bespoke error recovery page with direct navigation back to current collections.
-- **`login.html`**: Honest frontend account page explaining that live authentication is not configured.
+- **`login.html`**: Focused standalone account screen with browser validation, password visibility control and an honest pending-integration state.
 
 ## Key Features
 
@@ -38,6 +38,7 @@ All website pages reside in the `pages/` directory:
 - **Responsive Layout**: Fluid adaptability across mobile (360px–430px), tablet (640px–1024px), and wide desktop (1024px–1440px+) viewports.
 - **Canonical Catalogue**: One JavaScript dataset contains exactly 24 unique garments: 12 women, 10 men and two unisex.
 - **Interactive Shop Filtering**: Filter by gender, occasion, clothing type and climate with URL preselection, active chips, real-time counts and price sorting.
+- **Clothing-Type Routes**: Home Page 1 links into grouped shirt/top, trouser/set, dress/set and jacket/knitwear catalogue views.
 - **Product Galleries**: Every catalogue item has four coherent garment views, selectable thumbnails, swipe controls, and a keyboard-accessible lightbox.
 - **Product Quick View**: Native `<dialog>` modal showing key garment information and the full detail route.
 - **Responsive Product Sliders**: Four-column desktop rows become touch-friendly sliders on tablet and mobile.

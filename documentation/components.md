@@ -14,6 +14,7 @@
 
 ### 3. Filters & Sorting
 - **Filter Controls**: Simultaneous filtering by Gender, Occasion, Clothing Type, and Climate, including query-string preselection.
+- **Grouped Type Links**: Homepage directory routes map related catalogue types into clear Shirts & Tops, Trousers, Dresses & Sets, and Jackets & Knitwear result groups.
 - **Live Inventory Counter**: Real-time counter reporting the number of matching pieces.
 - **Price Sorting**: Ascending (`Low to High`) and Descending (`High to Low`) client-side sorting.
 - **Compact Filters**: Collapsible mobile filter panel with Apply and Clear actions plus visible active-filter chips.
@@ -29,3 +30,7 @@
 ### 6. Shared Footer & Help
 - **Compact Footer**: Reuses the exact header brand mark and wordmark, keeps every route discoverable, and includes a working Back-to-top button.
 - **Contact FAQ**: Keyboard-operable native disclosure panels covering appointments, fit adjustments and product questions.
+
+### 7. Standalone Account Screen
+- **Focused Login**: A self-contained account layout removes public navigation and footer distractions while retaining the SÉRAINE brand and theme control.
+- **Honest Interaction State**: Native email/password validation and a show-password control work locally; submission clearly states that authentication has not been connected and no details were sent.
