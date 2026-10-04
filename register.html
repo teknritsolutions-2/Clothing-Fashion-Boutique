@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html data-theme="light" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"><meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content="Create a SÉRAINE account." name="description"><meta content="#68556A" name="theme-color">
+<title>Create Account — SÉRAINE</title>
+<link href="assets/images/seraine-mark.svg" rel="icon" type="image/svg+xml">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('seraine-theme')||'light';document.documentElement.dir=localStorage.getItem('seraine-dir')||'ltr'}catch(e){}</script>
+<link href="assets/css/style.css" rel="stylesheet"><link href="assets/css/dark-mode.css" rel="stylesheet"><link href="assets/css/rtl.css" rel="stylesheet"><script defer src="assets/js/main.js"></script>
+</head>
+<body class="auth-body" data-page="register.html" id="top">
+<a class="skip-link" href="#main">Skip to account form</a>
+<main class="auth-page" id="main">
+  <section class="auth-card auth-card--register" aria-labelledby="auth-title">
+    <div class="auth-card-tools"><a aria-label="SÉRAINE home" class="brand" href="index.html"><span aria-hidden="true" class="brand-mark"></span><span>SÉRAINE</span></a><button aria-label="Switch to dark mode" class="icon-button theme-toggle"><span aria-hidden="true" class="theme-icon moon"></span></button></div>
+    <div class="auth-heading"><p class="eyebrow">JOIN SÉRAINE</p><h1 id="auth-title">Create your account</h1><p>Set up your details for the account experience coming soon.</p></div>
+    <form id="register-form" data-auth-form="register" novalidate>
+      <label for="register-name">Full name</label><input id="register-name" name="name" type="text" autocomplete="name" placeholder="Your full name" minlength="2" required>
+      <label for="register-email">Email address</label><input id="register-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+      <label for="register-password">Password</label><span class="password-field"><input id="register-password" data-new-password name="password" type="password" autocomplete="new-password" placeholder="At least 8 characters" minlength="8" required><button type="button" data-password-toggle="register-password" aria-label="Show password" aria-pressed="false"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M2.5 12s3.5-5 9.5-5 9.5 5 9.5 5-3.5 5-9.5 5-9.5-5-9.5-5Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="2.6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button></span>
+      <label for="register-confirm">Confirm password</label><span class="password-field"><input id="register-confirm" data-confirm-password name="confirm-password" type="password" autocomplete="new-password" placeholder="Repeat your password" minlength="8" required><button type="button" data-password-toggle="register-confirm" aria-label="Show password" aria-pressed="false"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M2.5 12s3.5-5 9.5-5 9.5 5 9.5 5-3.5 5-9.5 5-9.5-5-9.5-5Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="2.6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button></span>
+      <button class="button" type="submit">Create account</button><p class="auth-status" role="status" aria-live="polite"></p>
+    </form>
+    <p class="auth-switch">Already have an account? <a href="login.html">Login</a></p>
+    <p class="auth-note">This preview validates entries in your browser. It does not create, send or store an account.</p>
+    <a class="auth-home-link" href="index.html">← Back to home</a>
+  </section>
+</main>
+</body>
+</html>
