@@ -4,12 +4,13 @@
 SÉRAINE is a contemporary, welcoming clothing boutique focused on practical everyday wear and personal fit. The visual system restores the original warm ivory, plum and mauve palette with clear Manrope typography and Cormorant display accents. The shared folded-fabric symbol appears in the header, mobile drawer, footer, and favicon.
 
 ## Page Hierarchy & Architecture
-The boutique includes 17 complete, responsive static HTML pages organized within `/pages`:
+The boutique includes 18 complete, responsive static HTML pages organized within `/pages`:
 
 - **Home Page 1 (`index.html`)**: Eight-section flow spanning occasion, a four-route clothing-type directory, four arrivals, weather, fit process and seasonal lookbook.
 - **Home Page 2 (`home-2.html`)**: Climate-led outfit planning with four essentials, a compact office/casual/evening board and an editorial personal-fit consultation feature.
 - **About (`about.html`)**: Everyday clothing, sensible fabrics and personal fit.
 - **Shop (`shop.html`)**: All 24 catalogue garments with gender, occasion, clothing type and climate filters.
+- **Custom Fits (`custom-fits.html`)**: Ten women’s and men’s sample configurations with material, occasion and climate filters, variant-level availability, a reviewable order-request summary and context-aware store enquiry links. Inventory is explicitly labelled as sample data requiring final confirmation.
 - **Product Details (`product-details.html`)**: Dynamic four-image garment gallery with fabric, climate, fit options and custom-fit enquiry.
 - **New Arrivals (`new-arrivals.html`)**: Exactly 12 new products from the canonical catalogue.
 - **Sale (`sale.html`)**: Exactly nine reduced products in a three-column desktop grid.

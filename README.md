@@ -8,7 +8,7 @@ https://teknritsolutions-2.github.io/Clothing-Fashion-Boutique/
 
 ## Project Overview
 
-SÉRAINE is designed as a practical, welcoming fashion boutique for curated everyday wear. The project provides two distinct homepage experiences alongside catalogue filtering, seasonal lookbooks, an accessible style journal, store information, and customer enquiry tools.
+SÉRAINE is designed as a practical, welcoming fashion boutique for curated everyday wear. The project provides two distinct homepage experiences alongside catalogue filtering, a sample Custom Fits request builder, seasonal lookbooks, an accessible style journal, store information, and customer enquiry tools.
 
 ## Major Pages
 
@@ -18,6 +18,7 @@ All website pages reside in the `pages/` directory:
 - **`home-2.html`**: Distinct outfit-planning Home Page 2 organized around climate, the week ahead and personal fit support.
 - **`about.html`**: Everyday clothing philosophy, sensible fabrics and personal fit.
 - **`shop.html`**: Full 24-piece catalogue with simultaneous filtering and sorting.
+- **`custom-fits.html`**: Ten configurable sample garments with gender and garment filters, variant-level availability, a review-before-confirmation request builder and store-visit handoff.
 - **`product-details.html`**: Dynamic four-image garment gallery with climate, fabric and custom-fit enquiry.
 - **`new-arrivals.html`**: Exactly 12 new styles generated from the canonical catalogue.
 - **`sale.html`**: Exactly nine reduced styles with original and sale prices.
@@ -38,7 +39,8 @@ All website pages reside in the `pages/` directory:
 - **Bidirectional Support (LTR / RTL)**: Native right-to-left language support with mirrored navigation, transformed controls, and preserved photograph orientation.
 - **Responsive Layout**: Fluid adaptability across mobile (360px–430px), tablet (640px–1024px), and wide desktop (1024px–1440px+) viewports.
 - **Canonical Catalogue**: One JavaScript dataset contains exactly 24 unique garments: 12 women, 10 men and two unisex.
-- **Interactive Shop Filtering**: Filter by gender, occasion, clothing type and climate with URL preselection, active chips, real-time counts and price sorting.
+- **Interactive Shop Filtering**: Combine All Styles, New Arrivals or On Sale merchandising edits with gender, occasion, clothing type and climate filters, URL preselection, active chips, real-time counts and price sorting.
+- **Custom Fits Sample Workflow**: Compare ten configurable garment options and their variant availability, prepare a reviewable request, or carry the selected garment context into a store enquiry. The UI clearly states that sample inventory needs final confirmation and that no order or payment is submitted.
 - **Clothing-Type Routes**: Home Page 1 links into grouped shirt/top, trouser/set, dress/set and jacket/knitwear catalogue views.
 - **Product Galleries**: Every catalogue item has four coherent garment views, selectable thumbnails, swipe controls, and a keyboard-accessible lightbox.
 - **Product Quick View**: Native `<dialog>` modal showing key garment information and the full detail route.
@@ -70,6 +72,7 @@ Clothing & Fashion Boutique/
 │   │
 │   ├── js/
 │   │   ├── main.js
+│   │   ├── custom-fits.js
 │   │   └── plugins/
 │   │
 │   ├── images/
@@ -80,6 +83,7 @@ Clothing & Fashion Boutique/
 │   ├── home-2.html
 │   ├── about.html
 │   ├── shop.html
+│   ├── custom-fits.html
 │   ├── product-details.html
 │   ├── new-arrivals.html
 │   ├── sale.html

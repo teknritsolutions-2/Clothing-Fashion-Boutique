@@ -29,9 +29,15 @@ For direct submission in future, connect a chosen form service and change the su
 
 The `PIECES` array in `assets/js/main.js` is the canonical product source. It contains exactly 24 records and drives every product grid, quick view and product detail. HTML grids use a `data-catalog` key instead of duplicating product data.
 
-The Shop page filters all 24 pieces by gender, occasion, clothing type, climate and the grouped clothing-type routes used by Home Page 1. The `COLLECTIONS` object defines the exact Home 1, Home 2, New Arrivals and Sale selections. Keep the required totals at 4, 4, 12 and 9.
+The Shop page filters all 24 pieces by gender, occasion, clothing type, climate and the grouped clothing-type routes used by Home Page 1. The All Styles, New Arrivals and On Sale controls combine with these filters. The `COLLECTIONS` object defines the exact Home 1, Home 1 Sale preview, Home 2, New Arrivals and Sale selections. Keep the full catalogue, New Arrivals and Sale totals at 24, 12 and 9.
 
 Product quick views and details use the same catalogue record. Every record contains four coherent garment photographs; detail pages provide thumbnails, swipe navigation and an accessible lightbox, then carry the product name and selected size into the Contact page custom-fit enquiry.
+
+## Custom Fits sample inventory
+
+`assets/js/custom-fits.js` contains `CUSTOM_FIT_OPTIONS`, a separate sample dataset for ten configurable garments. Each option has one or more material and colour variants with one of four statuses: `available`, `limited`, `unavailable` or `enquire`. Only available and limited variants can open the order-request builder. Unavailable and enquiry-only variants carry their full context to the Contact page.
+
+The request builder validates fields locally, displays a full review, and prepares a copyable summary. It has no commerce backend, payment service, inventory reservation or form endpoint. Keep the sample-data and final-confirmation notices until real inventory and order services are connected and verified.
 
 ## Style guide
 
@@ -55,4 +61,4 @@ Body copy uses a comfortable 1.65 line-height. Navigation and the LTR/RTL contro
 
 ## Section spacing and motion
 
-The shared `--section` token is 72px on desktop, 52px on tablet and 36px on mobile. Tinted sections provide grouping without stacked padding. One IntersectionObserver adds subtle one-time entrance motion, while content remains visible by default.
+The shared `--section` token is 72px on desktop, 52px on tablet and 36px on mobile. Tinted sections provide grouping without stacked padding. One shared IntersectionObserver adds a 1.35-second one-time entrance motion to editorial and information blocks. Catalogue grids, slider tracks, navigation and product galleries are excluded. Content remains visible without JavaScript and when reduced motion is requested.
