@@ -7,12 +7,12 @@
 <meta content="A practical guide to clothing proportions, layers, colour and outfit planning." name="description"/>
 <meta content="#68556A" name="theme-color"/>
 <title>How to Build a Practical Wardrobe — SÉRAINE</title>
-<link href="assets/images/seraine-mark.svg" rel="icon" type="image/svg+xml"/>
-<script>try{document.documentElement.dataset.theme=localStorage.getItem('seraine-theme')||'light';document.documentElement.dir=localStorage.getItem('seraine-dir')||'ltr'}catch(e){}</script>
-<link href="assets/css/style.css" rel="stylesheet"/>
-<link href="assets/css/dark-mode.css" rel="stylesheet"/>
-<link href="assets/css/rtl.css" rel="stylesheet"/>
-<script defer="" src="assets/js/main.js">
+<link href="../assets/images/seraine-mark.svg" rel="icon" type="image/svg+xml"/>
+<script>try{const root=document.documentElement;root.dataset.theme=localStorage.getItem('seraine-theme')||'light';root.dir=localStorage.getItem('seraine-dir')||'ltr';root.classList.add('js');setTimeout(()=>{if(!root.classList.contains('reveal-ready'))root.classList.remove('js')},4000)}catch(e){}</script>
+<link href="../assets/css/style.css" rel="stylesheet"/>
+<link href="../assets/css/dark-mode.css" rel="stylesheet"/>
+<link href="../assets/css/rtl.css" rel="stylesheet"/>
+<script defer="" src="../assets/js/main.js">
 </script>
 </head>
 <body data-page="article-details.html" id="top">
@@ -20,10 +20,10 @@
 <header class="site-header">
 <a aria-label="SÉRAINE home" class="brand" href="index.html"><span aria-hidden="true" class="brand-mark"></span><span>SÉRAINE</span></a>
 <nav aria-label="Main navigation" class="desktop-nav">
-<a href="index.html">Home</a>
+<details class="nav-dropdown"><summary>Home <svg aria-hidden="true" class="home-chevron" height="8" viewBox="0 0 12 8" width="12"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></summary><div><a href="index.html">Home Page 1</a><a href="home-2.html">Home Page 2</a></div></details>
 <a href="shop.html">Shop</a>
 <a href="custom-fits.html">Custom Fits</a>
-<details class="nav-dropdown"><summary aria-current="page">Discover <svg aria-hidden="true" class="home-chevron" height="8" viewBox="0 0 12 8" width="12"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></summary><div><a href="lookbook.html">Lookbook</a><a href="style-guide.html">Style Guide</a><a href="about.html">Our Story</a></div></details>
+<details class="nav-dropdown"><summary>Discover <svg aria-hidden="true" class="home-chevron" height="8" viewBox="0 0 12 8" width="12"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></summary><div><a href="lookbook.html">Lookbook</a><a aria-current="page" href="style-guide.html">Style Guide</a><a href="about.html">Our Story</a></div></details>
 <a href="contact.html">Contact</a>
 </nav>
 <div class="desktop-utilities"><button aria-label="Switch to dark mode" class="icon-button theme-toggle"><span aria-hidden="true" class="theme-icon moon"></span></button><button aria-label="Switch to right-to-left layout" class="direction-toggle">LTR</button><a class="button header-cta" href="login.html">Login</a></div>
@@ -31,17 +31,17 @@
 </header>
 <dialog class="drawer" id="navigation-drawer">
 <div class="drawer-top"><a aria-label="SÉRAINE home" class="brand" href="index.html"><span aria-hidden="true" class="brand-mark"></span><span>SÉRAINE</span></a><button aria-label="Close navigation" class="icon-button" data-close="">×</button></div>
-<nav aria-label="Mobile navigation"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="custom-fits.html">Custom Fits</a><span class="drawer-label">Discover</span><a href="lookbook.html">Lookbook</a><a href="style-guide.html">Style Guide</a><a href="about.html">Our Story</a><a href="contact.html">Contact</a><a class="button drawer-cta" href="login.html">Login</a></nav>
+<nav aria-label="Mobile navigation"><span class="drawer-label">Home</span><a class="drawer-subitem" href="index.html">Home Page 1</a><a class="drawer-subitem" href="home-2.html">Home Page 2</a><a href="shop.html">Shop</a><a href="custom-fits.html">Custom Fits</a><span class="drawer-label">Discover</span><a class="drawer-subitem" href="lookbook.html">Lookbook</a><a class="drawer-subitem" aria-current="page" href="style-guide.html">Style Guide</a><a class="drawer-subitem" href="about.html">Our Story</a><a href="contact.html">Contact</a><a class="button drawer-cta" href="login.html">Login</a></nav>
 <div class="drawer-settings"><fieldset><legend>DISPLAY</legend><button data-theme="light">Light</button><button data-theme="dark">Dark</button></fieldset><fieldset><legend>DIRECTION</legend><button data-dir="ltr">LTR</button><button data-dir="rtl">RTL</button></fieldset></div>
 <p class="drawer-note">Curated clothing for real life.</p>
 </dialog>
 <main id="main">
 <article>
   <header class="page-intro"><div class="wrap"><p class="eyebrow">THE PRACTICAL WARDROBE</p><h1>Build a week of outfits from fewer pieces.</h1><p class="lead">A useful framework for clothes that work together, fit comfortably and suit the weather.</p></div></header>
-  <div class="section wrap about-grid"><img src="assets/images/guide-week.webp" alt="Woman wearing a light top with relaxed neutral trousers"><div><h2>Begin with repeatable shapes.</h2><p>Notice the clothes you reach for when you need to get dressed quickly. Their waist, hem, shoulder and sleeve lines are your dependable starting point. Use those shapes as a guide when adding something new.</p><p>Pick two quiet base colours and one accent you enjoy. A shirt, knit, trouser and jacket in that small palette can make more combinations than four unrelated statement pieces.</p></div></div>
-  <section class="section tinted-section" id="proportion"><div class="wrap about-grid"><div><p class="eyebrow">PROPORTION</p><h2>Check three lines.</h2><p>Look at where the top ends, where the trouser sits and where a sleeve meets the wrist. Small changes in those three points often make the whole outfit feel more balanced.</p></div><img src="assets/images/guide-proportion.webp" alt="Everyday blazer and jeans showing balanced proportions"></div></section>
-  <section class="section wrap" id="layers"><div class="about-grid"><img src="assets/images/guide-knitwear.webp" alt="Neutral knit used as a cool-weather layer"><div><p class="eyebrow">LAYERS</p><h2>Dress for change.</h2><p>Wear the lightest comfortable layer nearest the body, then add warmth in pieces you can remove. Breathable fabrics help when the forecast and the room temperature disagree.</p></div></div></section>
-  <section class="final-cta"><div><p class="eyebrow">TRY THE EDIT</p><h2>Find practical pieces for <em>your week.</em></h2></div><a class="button" href="shop.html">Shop all styles</a></section>
+  <div class="section wrap about-grid"><img src="../assets/images/lookbook-work.webp" alt="Three women in complete professional outfits walking through an office"><div><h2>Begin with repeatable shapes.</h2><p>Notice the clothes you reach for when you need to get dressed quickly. Their waist, hem, shoulder and sleeve lines are your dependable starting point. Use those shapes as a guide when adding something new.</p><p>Pick two quiet base colours and one accent you enjoy. A shirt, knit, trouser and jacket in that small palette can make more combinations than four unrelated statement pieces.</p></div></div>
+  <section class="section tinted-section" id="proportion"><div class="wrap about-grid"><div><p class="eyebrow">PROPORTION</p><h2>Check three lines.</h2><p>Look at where the top ends, where the trouser sits and where a sleeve meets the wrist. Small changes in those three points often make the whole outfit feel more balanced.</p></div><img src="../assets/images/home-2-hero.webp" alt="Woman in a complete tailored outfit showing balanced proportions"></div></section>
+  <section class="section wrap" id="layers"><div class="about-grid"><img src="../assets/images/guide-knitwear.webp" alt="Neutral knit used as a cool-weather layer"><div><p class="eyebrow">LAYERS</p><h2>Dress for change.</h2><p>Wear the lightest comfortable layer nearest the body, then add warmth in pieces you can remove. Breathable fabrics help when the forecast and the room temperature disagree.</p></div></div></section>
+  <section class="conversion-cta"><div><p class="eyebrow">TRY THE EDIT</p><h2>Find practical pieces for <em>your week.</em></h2></div><a class="button" href="shop.html">Shop all styles</a></section>
 </article>
 </main>
 <footer class="site-footer">

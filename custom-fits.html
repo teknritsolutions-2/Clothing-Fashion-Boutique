@@ -7,21 +7,21 @@
 <meta content="Explore configurable SÉRAINE clothing options and prepare a custom-fit request." name="description"/>
 <meta content="#68556A" name="theme-color"/>
 <title>Custom Fits — SÉRAINE</title>
-<link href="assets/images/seraine-mark.svg" rel="icon" type="image/svg+xml"/>
-<script>try{document.documentElement.dataset.theme=localStorage.getItem('seraine-theme')||'light';document.documentElement.dir=localStorage.getItem('seraine-dir')||'ltr'}catch(e){}</script>
-<link href="assets/css/style.css" rel="stylesheet"/>
-<link href="assets/css/dark-mode.css" rel="stylesheet"/>
-<link href="assets/css/rtl.css" rel="stylesheet"/>
-<script defer="" src="assets/js/main.js">
+<link href="../assets/images/seraine-mark.svg" rel="icon" type="image/svg+xml"/>
+<script>try{const root=document.documentElement;root.dataset.theme=localStorage.getItem('seraine-theme')||'light';root.dir=localStorage.getItem('seraine-dir')||'ltr';root.classList.add('js');setTimeout(()=>{if(!root.classList.contains('reveal-ready'))root.classList.remove('js')},4000)}catch(e){}</script>
+<link href="../assets/css/style.css" rel="stylesheet"/>
+<link href="../assets/css/dark-mode.css" rel="stylesheet"/>
+<link href="../assets/css/rtl.css" rel="stylesheet"/>
+<script defer="" src="../assets/js/main.js">
 </script>
-<script defer src="assets/js/custom-fits.js"></script>
+<script defer src="../assets/js/custom-fits.js"></script>
 </head>
 <body data-page="custom-fits.html" id="top">
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
 <a aria-label="SÉRAINE home" class="brand" href="index.html"><span aria-hidden="true" class="brand-mark"></span><span>SÉRAINE</span></a>
 <nav aria-label="Main navigation" class="desktop-nav">
-<a href="index.html">Home</a>
+<details class="nav-dropdown"><summary>Home <svg aria-hidden="true" class="home-chevron" height="8" viewBox="0 0 12 8" width="12"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></summary><div><a href="index.html">Home Page 1</a><a href="home-2.html">Home Page 2</a></div></details>
 <a href="shop.html">Shop</a>
 <a aria-current="page" href="custom-fits.html">Custom Fits</a>
 <details class="nav-dropdown"><summary>Discover <svg aria-hidden="true" class="home-chevron" height="8" viewBox="0 0 12 8" width="12"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></summary><div><a href="lookbook.html">Lookbook</a><a href="style-guide.html">Style Guide</a><a href="about.html">Our Story</a></div></details>
@@ -32,7 +32,7 @@
 </header>
 <dialog class="drawer" id="navigation-drawer">
 <div class="drawer-top"><a aria-label="SÉRAINE home" class="brand" href="index.html"><span aria-hidden="true" class="brand-mark"></span><span>SÉRAINE</span></a><button aria-label="Close navigation" class="icon-button" data-close="">×</button></div>
-<nav aria-label="Mobile navigation"><a href="index.html">Home</a><a href="shop.html">Shop</a><a aria-current="page" href="custom-fits.html">Custom Fits</a><span class="drawer-label">Discover</span><a href="lookbook.html">Lookbook</a><a href="style-guide.html">Style Guide</a><a href="about.html">Our Story</a><a href="contact.html">Contact</a><a class="button drawer-cta" href="login.html">Login</a></nav>
+<nav aria-label="Mobile navigation"><span class="drawer-label">Home</span><a class="drawer-subitem" href="index.html">Home Page 1</a><a class="drawer-subitem" href="home-2.html">Home Page 2</a><a href="shop.html">Shop</a><a aria-current="page" href="custom-fits.html">Custom Fits</a><span class="drawer-label">Discover</span><a class="drawer-subitem" href="lookbook.html">Lookbook</a><a class="drawer-subitem" href="style-guide.html">Style Guide</a><a class="drawer-subitem" href="about.html">Our Story</a><a href="contact.html">Contact</a><a class="button drawer-cta" href="login.html">Login</a></nav>
 <div class="drawer-settings"><fieldset><legend>DISPLAY</legend><button data-theme="light">Light</button><button data-theme="dark">Dark</button></fieldset><fieldset><legend>DIRECTION</legend><button data-dir="ltr">LTR</button><button data-dir="rtl">RTL</button></fieldset></div>
 <p class="drawer-note">Curated clothing for real life.</p>
 </dialog>
@@ -48,7 +48,7 @@
   <div class="custom-fit-grid" id="custom-fit-grid"></div>
 </section>
 <section class="section tinted-section"><div class="wrap"><div class="section-heading reveal"><div><p class="eyebrow">HOW IT WORKS</p><h2>Four clear steps.</h2></div><p class="heading-aside">A request starts the conversation. It does not reserve stock, place an order or take payment.</p></div><div class="custom-steps"><article class="reveal"><b>01</b><h3>Choose</h3><p>Select a garment, material and colour from the sample options.</p></article><article class="reveal"><b>02</b><h3>Describe</h3><p>Add your size and the fit details you want to discuss.</p></article><article class="reveal"><b>03</b><h3>Review</h3><p>Check the complete request summary before you continue.</p></article><article class="reveal"><b>04</b><h3>Confirm</h3><p>Share the prepared request or visit the boutique for final confirmation.</p></article></div></div></section>
-<section class="final-cta"><div><p class="eyebrow">PERSONAL CONSULTATION</p><h2>Prefer to talk it through in person?</h2><p>Bring a saved request or start with your usual size and the way you want the garment to feel.</p></div><a class="button" href="contact.html?type=Store%20visit&amp;message=I%20would%20like%20a%20Custom%20Fits%20consultation.#enquiry">Plan a store visit</a></section>
+<section class="conversion-cta"><div><p class="eyebrow">PERSONAL CONSULTATION</p><h2>Prefer to talk it through in person?</h2><p>Bring a saved request or start with your usual size and the way you want the garment to feel.</p></div><a class="button" href="contact.html?type=Store%20visit&amp;message=I%20would%20like%20a%20Custom%20Fits%20consultation.#enquiry">Plan a store visit</a></section>
 </main>
 <footer class="site-footer">
 <div class="footer-grid">

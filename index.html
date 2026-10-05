@@ -7,12 +7,12 @@
 <meta content="Contemporary everyday clothing for work, weekends, changing weather and personal fit." name="description"/>
 <meta content="#68556A" name="theme-color"/>
 <title>Home Page 1 — SÉRAINE</title>
-<link href="assets/images/seraine-mark.svg" rel="icon" type="image/svg+xml"/>
-<script>try{document.documentElement.dataset.theme=localStorage.getItem('seraine-theme')||'light';document.documentElement.dir=localStorage.getItem('seraine-dir')||'ltr'}catch(e){}</script>
-<link href="assets/css/style.css" rel="stylesheet"/>
-<link href="assets/css/dark-mode.css" rel="stylesheet"/>
-<link href="assets/css/rtl.css" rel="stylesheet"/>
-<script defer="" src="assets/js/main.js">
+<link href="../assets/images/seraine-mark.svg" rel="icon" type="image/svg+xml"/>
+<script>try{const root=document.documentElement;root.dataset.theme=localStorage.getItem('seraine-theme')||'light';root.dir=localStorage.getItem('seraine-dir')||'ltr';root.classList.add('js');setTimeout(()=>{if(!root.classList.contains('reveal-ready'))root.classList.remove('js')},4000)}catch(e){}</script>
+<link href="../assets/css/style.css" rel="stylesheet"/>
+<link href="../assets/css/dark-mode.css" rel="stylesheet"/>
+<link href="../assets/css/rtl.css" rel="stylesheet"/>
+<script defer="" src="../assets/js/main.js">
 </script>
 </head>
 <body data-page="index.html" id="top">
@@ -20,7 +20,7 @@
 <header class="site-header">
 <a aria-label="SÉRAINE home" class="brand" href="index.html"><span aria-hidden="true" class="brand-mark"></span><span>SÉRAINE</span></a>
 <nav aria-label="Main navigation" class="desktop-nav">
-<a aria-current="page" href="index.html">Home</a>
+<details class="nav-dropdown"><summary>Home <svg aria-hidden="true" class="home-chevron" height="8" viewBox="0 0 12 8" width="12"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></summary><div><a aria-current="page" href="index.html">Home Page 1</a><a href="home-2.html">Home Page 2</a></div></details>
 <a href="shop.html">Shop</a>
 <a href="custom-fits.html">Custom Fits</a>
 <details class="nav-dropdown"><summary>Discover <svg aria-hidden="true" class="home-chevron" height="8" viewBox="0 0 12 8" width="12"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"></path></svg></summary><div><a href="lookbook.html">Lookbook</a><a href="style-guide.html">Style Guide</a><a href="about.html">Our Story</a></div></details>
@@ -31,7 +31,7 @@
 </header>
 <dialog class="drawer" id="navigation-drawer">
 <div class="drawer-top"><a aria-label="SÉRAINE home" class="brand" href="index.html"><span aria-hidden="true" class="brand-mark"></span><span>SÉRAINE</span></a><button aria-label="Close navigation" class="icon-button" data-close="">×</button></div>
-<nav aria-label="Mobile navigation"><a aria-current="page" href="index.html">Home</a><a href="shop.html">Shop</a><a href="custom-fits.html">Custom Fits</a><span class="drawer-label">Discover</span><a href="lookbook.html">Lookbook</a><a href="style-guide.html">Style Guide</a><a href="about.html">Our Story</a><a href="contact.html">Contact</a><a class="button drawer-cta" href="login.html">Login</a></nav>
+<nav aria-label="Mobile navigation"><span class="drawer-label">Home</span><a class="drawer-subitem" aria-current="page" href="index.html">Home Page 1</a><a class="drawer-subitem" href="home-2.html">Home Page 2</a><a href="shop.html">Shop</a><a href="custom-fits.html">Custom Fits</a><span class="drawer-label">Discover</span><a class="drawer-subitem" href="lookbook.html">Lookbook</a><a class="drawer-subitem" href="style-guide.html">Style Guide</a><a class="drawer-subitem" href="about.html">Our Story</a><a href="contact.html">Contact</a><a class="button drawer-cta" href="login.html">Login</a></nav>
 <div class="drawer-settings"><fieldset><legend>DISPLAY</legend><button data-theme="light">Light</button><button data-theme="dark">Dark</button></fieldset><fieldset><legend>DIRECTION</legend><button data-dir="ltr">LTR</button><button data-dir="rtl">RTL</button></fieldset></div>
 <p class="drawer-note">Curated clothing for real life.</p>
 </dialog>
@@ -43,24 +43,24 @@
     <p>Easy pieces for work, weekends, changing weather and the plans in between—with fit support when you need it.</p>
     <div class="hero-actions"><a class="button" href="shop.html">Explore Collection</a><a class="button secondary" href="custom-fits.html">Find Your Fit</a></div>
   </div>
-  <div class="split-hero-media"><img src="assets/images/home-1-hero.webp" alt="Woman showing a complete tailored work outfit indoors" width="1068" height="1600" fetchpriority="high"></div>
+  <div class="split-hero-media"><img src="../assets/images/home-1-hero.webp" alt="Woman showing a complete tailored work outfit indoors" width="1068" height="1600" fetchpriority="high"></div>
 </section>
 <section class="section wrap">
   <div class="section-heading reveal"><div><p class="eyebrow">SHOP BY OCCASION</p><h2>Ready for real <em>plans.</em></h2></div><p class="heading-aside">Start with where you are going, then make the look your own.</p></div>
   <div class="occasion-grid">
-    <a class="occasion-card reveal" href="shop.html?occasion=Work"><img src="assets/images/occasion-work.webp" alt="Two women walking in complete office outfits" width="1067" height="1600"><div><h3>Work &amp; Office</h3><span>Shop work styles ↗</span></div></a>
-    <a class="occasion-card reveal" href="shop.html?occasion=Weekend"><img src="assets/images/occasion-weekend.webp" alt="Woman in a relaxed light suit and trainers outdoors" width="1067" height="1600"><div><h3>Everyday &amp; Weekend</h3><span>Shop weekend styles ↗</span></div></a>
-    <a class="occasion-card reveal" href="shop.html?occasion=Occasion"><img src="assets/images/occasion-evening.webp" alt="Woman wearing a simple copper evening dress" width="1067" height="1600"><div><h3>Date &amp; Occasion</h3><span>Shop occasion styles ↗</span></div></a>
+    <a class="occasion-card reveal" href="shop.html?occasion=Work"><img src="../assets/images/occasion-work.webp" alt="Two women walking in complete office outfits" width="1067" height="1600"><div><h3>Work &amp; Office</h3><span>Shop work styles ↗</span></div></a>
+    <a class="occasion-card reveal" href="shop.html?occasion=Weekend"><img src="../assets/images/occasion-weekend.webp" alt="Woman in a relaxed light suit and trainers outdoors" width="1067" height="1600"><div><h3>Everyday &amp; Weekend</h3><span>Shop weekend styles ↗</span></div></a>
+    <a class="occasion-card reveal" href="shop.html?occasion=Occasion"><img src="../assets/images/occasion-evening.webp" alt="Woman wearing a simple copper evening dress" width="1067" height="1600"><div><h3>Date &amp; Occasion</h3><span>Shop occasion styles ↗</span></div></a>
   </div>
 </section>
 <section class="section tinted-section garment-directory">
   <div class="wrap">
     <div class="section-heading reveal"><div><p class="eyebrow">SHOP BY CLOTHING TYPE</p><h2>Begin with the <em>piece.</em></h2></div><p class="heading-aside">Four useful starting points, from the first layer to the finishing one.</p></div>
     <div class="type-directory">
-      <a class="type-link reveal" href="shop.html?category=shirts-tops"><span class="type-link-media"><img src="assets/images/products/adrian-linen-shirt-1.webp" alt="Man wearing a relaxed natural linen shirt" width="1067" height="1600"></span><span class="type-link-copy"><small>01 / LIGHT LAYERS</small><strong>Shirts &amp; Tops</strong><span>Breathable foundations for work and weekends.</span><b>Explore styles ↗</b></span></a>
-      <a class="type-link reveal" href="shop.html?category=trousers"><span class="type-link-media"><img src="assets/images/products/kai-everyday-suit-2.webp" alt="Close view of tailored tobacco trousers" width="1067" height="1600"></span><span class="type-link-copy"><small>02 / EASY SHAPES</small><strong>Trousers</strong><span>Relaxed and tailored proportions for everyday wear.</span><b>Explore styles ↗</b></span></a>
-      <a class="type-link reveal" href="shop.html?category=dresses-sets"><span class="type-link-media"><img src="assets/images/products/oliver-linen-set-2.webp" alt="Man wearing a coordinated natural linen set" width="1067" height="1600"></span><span class="type-link-copy"><small>03 / ONE-STEP DRESSING</small><strong>Dresses &amp; Sets</strong><span>Complete looks that make getting dressed simpler.</span><b>Explore styles ↗</b></span></a>
-      <a class="type-link reveal" href="shop.html?category=jackets-knitwear"><span class="type-link-media"><img src="assets/images/products/lena-everyday-overshirt-3.webp" alt="Woman wearing a soft checked overshirt" width="1067" height="1600"></span><span class="type-link-copy"><small>04 / FINISHING LAYERS</small><strong>Jackets &amp; Knitwear</strong><span>Soft structure and warmth when the weather shifts.</span><b>Explore styles ↗</b></span></a>
+      <a class="type-link reveal" href="shop.html?category=shirts-tops"><span class="type-link-media"><img src="../assets/images/products/adrian-linen-shirt-1.webp" alt="Man wearing a relaxed natural linen shirt" width="1067" height="1600"></span><span class="type-link-copy"><small>01 / LIGHT LAYERS</small><strong>Shirts &amp; Tops</strong><span>Breathable foundations for work and weekends.</span><b>Explore styles ↗</b></span></a>
+      <a class="type-link reveal" href="shop.html?category=trousers"><span class="type-link-media"><img src="../assets/images/products/kai-everyday-suit-2.webp" alt="Close view of tailored tobacco trousers" width="1067" height="1600"></span><span class="type-link-copy"><small>02 / EASY SHAPES</small><strong>Trousers</strong><span>Relaxed and tailored proportions for everyday wear.</span><b>Explore styles ↗</b></span></a>
+      <a class="type-link reveal" href="shop.html?category=dresses-sets"><span class="type-link-media"><img src="../assets/images/products/oliver-linen-set-2.webp" alt="Man wearing a coordinated natural linen set" width="1067" height="1600"></span><span class="type-link-copy"><small>03 / ONE-STEP DRESSING</small><strong>Dresses &amp; Sets</strong><span>Complete looks that make getting dressed simpler.</span><b>Explore styles ↗</b></span></a>
+      <a class="type-link reveal" href="shop.html?category=jackets-knitwear"><span class="type-link-media"><img src="../assets/images/products/lena-everyday-overshirt-3.webp" alt="Woman wearing a soft checked overshirt" width="1067" height="1600"></span><span class="type-link-copy"><small>04 / FINISHING LAYERS</small><strong>Jackets &amp; Knitwear</strong><span>Soft structure and warmth when the weather shifts.</span><b>Explore styles ↗</b></span></a>
     </div>
   </div>
 </section>
@@ -75,20 +75,20 @@
 <section class="section tinted-section">
   <div class="wrap"><div class="section-heading reveal"><div><p class="eyebrow">DRESS FOR THE WEATHER</p><h2>Layers for the <em>forecast.</em></h2></div><p class="heading-aside">Simple edits built around comfort, temperature and the way your day moves.</p></div>
   <div class="climate-grid">
-    <a class="climate-card reveal" href="shop.html?climate=Warm%20Days"><img src="assets/images/climate-warm.webp" alt="Woman wearing a light blazer with denim on a city street"><div><p class="eyebrow">01</p><h3>Warm Days</h3><p>Breathable cotton, linen and easy shapes.</p><span class="text-link">Explore ↗</span></div></a>
-    <a class="climate-card reveal" href="shop.html?climate=Everyday%20Weather"><img src="assets/images/climate-everyday.webp" alt="Man wearing an easy collared knit for everyday weather"><div><p class="eyebrow">02</p><h3>Everyday Weather</h3><p>Useful layers that work across the day.</p><span class="text-link">Explore ↗</span></div></a>
-    <a class="climate-card reveal" href="shop.html?climate=Cool%20Days"><img src="assets/images/climate-cool.webp" alt="Woman wearing a blazer with jeans for a cool day"><div><p class="eyebrow">03</p><h3>Cool Days</h3><p>Soft knits and practical outer layers.</p><span class="text-link">Explore ↗</span></div></a>
+    <a class="climate-card reveal" href="shop.html?climate=Warm%20Days"><img src="../assets/images/climate-warm.webp" alt="Woman wearing a light blazer with denim on a city street"><div><p class="eyebrow">01</p><h3>Warm Days</h3><p>Breathable cotton, linen and easy shapes.</p><span class="text-link">Explore ↗</span></div></a>
+    <a class="climate-card reveal" href="shop.html?climate=Everyday%20Weather"><img src="../assets/images/climate-everyday.webp" alt="Man wearing an easy collared knit for everyday weather"><div><p class="eyebrow">02</p><h3>Everyday Weather</h3><p>Useful layers that work across the day.</p><span class="text-link">Explore ↗</span></div></a>
+    <a class="climate-card reveal" href="shop.html?climate=Cool%20Days"><img src="../assets/images/climate-cool.webp" alt="Woman wearing a blazer with jeans for a cool day"><div><p class="eyebrow">03</p><h3>Cool Days</h3><p>Soft knits and practical outer layers.</p><span class="text-link">Explore ↗</span></div></a>
   </div></div>
 </section>
 <section class="section wrap">
   <div class="section-heading reveal"><div><p class="eyebrow">PERSONAL FIT</p><h2>A better fit in <em>three steps.</em></h2></div><a class="text-link" href="custom-fits.html">Explore Custom Fits ↗</a></div>
-  <div class="fit-process"><article class="fit-stage reveal"><b>01 / CHOOSE</b><h3>Start with a style</h3><p>Pick the piece that works for your day and tell us how you like clothes to sit.</p></article><article class="fit-stage reveal"><b>02 / SHARE</b><h3>Talk through fit</h3><p>Share your usual size and any length, sleeve or proportion preferences.</p></article><article class="fit-stage reveal"><b>03 / REFINE</b><h3>Plan the adjustment</h3><p>We will confirm what is possible and arrange a fitting or collection.</p></article></div>
+  <div class="fit-process"><article class="fit-stage"><div class="fit-stage-content reveal"><b>01 / CHOOSE</b><h3>Start with a style</h3><p>Pick the piece that works for your day and tell us how you like clothes to sit.</p></div></article><article class="fit-stage"><div class="fit-stage-content reveal"><b>02 / SHARE</b><h3>Talk through fit</h3><p>Share your usual size and any length, sleeve or proportion preferences.</p></div></article><article class="fit-stage"><div class="fit-stage-content reveal"><b>03 / REFINE</b><h3>Plan the adjustment</h3><p>We will confirm what is possible and arrange a fitting or collection.</p></div></article></div>
 </section>
 <section class="section tinted-section"><div class="wrap lookbook-preview">
-  <img class="reveal" src="assets/images/lookbook-weekend.webp" alt="Man walking through the city in a complete smart-casual outfit" width="1068" height="1600">
+  <img class="reveal" src="../assets/images/climate-warm.webp" alt="Woman in a complete light blazer and denim outfit in the city" width="1068" height="1600">
   <div class="lookbook-copy reveal"><p class="eyebrow">SEASONAL LOOKBOOK</p><h2>One wardrobe, <em>many days.</em></h2><p>Three compact outfit stories move from the working week to slower plans and dinner after dark.</p><a class="text-link" href="lookbook.html">Open the lookbook <span class="arrow">↗</span></a></div>
 </div></section>
-<section class="final-cta"><div><p class="eyebrow">NOT SURE WHERE TO START?</p><h2>Let’s find what <em>fits your day.</em></h2></div><a class="button" href="contact.html?type=Sizing#enquiry">Talk to our team</a></section>
+<section class="conversion-cta"><div><p class="eyebrow">NOT SURE WHERE TO START?</p><h2>Let’s find what <em>fits your day.</em></h2></div><a class="button" href="contact.html?type=Sizing#enquiry">Talk to our team</a></section>
 </main>
 <footer class="site-footer">
 <div class="footer-grid">
