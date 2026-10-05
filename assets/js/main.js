@@ -64,14 +64,14 @@ const money = value => new Intl.NumberFormat(SERAINE_CONFIG.locale, {style:'curr
 const imagePath = filename => `../assets/images/${filename}`;
 const escapeHTML = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
 
-function productCard(item) {
+function productCard(item, reveal = false) {
   const image = item.images[0]; const badges = [item.isNew ? 'NEW' : '', item.sale ? 'SALE' : ''].filter(Boolean);
   const pricing = item.original ? `<del>${money(item.original)}</del> <span>${money(item.price)}</span>` : `<span>${money(item.price)}</span>`;
-  return `<article class="product-card" data-product-card data-piece="${item.id}" data-gender="${item.gender}" data-occasion="${item.occasion}" data-type="${item.type}" data-climate="${item.climate}" data-price="${item.price}" data-new="${item.isNew}" data-sale="${item.sale}"><a class="product-photo" data-open-piece="${item.id}" href="product-details.html?piece=${item.id}"><img class="product-image" src="${imagePath(image.src)}" alt="${escapeHTML(image.alt)}" width="1000" height="1250" loading="lazy" decoding="async">${badges.length ? `<span class="product-badges">${badges.map(badge => `<span class="product-tag product-tag--${badge.toLowerCase()}">${badge}</span>`).join('')}</span>` : ''}<span class="view-piece">VIEW DETAILS <span aria-hidden="true">↗</span></span></a><div class="product-meta"><div><p class="product-category">${item.type} · ${item.color}</p><h3><a href="product-details.html?piece=${item.id}">${escapeHTML(item.name)}</a></h3></div><p class="price">${pricing}</p></div></article>`;
+  return `<article class="product-card${reveal ? ' reveal' : ''}" data-product-card data-piece="${item.id}" data-gender="${item.gender}" data-occasion="${item.occasion}" data-type="${item.type}" data-climate="${item.climate}" data-price="${item.price}" data-new="${item.isNew}" data-sale="${item.sale}"><a class="product-photo" data-open-piece="${item.id}" href="product-details.html?piece=${item.id}"><img class="product-image" src="${imagePath(image.src)}" alt="${escapeHTML(image.alt)}" width="1000" height="1250" loading="lazy" decoding="async">${badges.length ? `<span class="product-badges">${badges.map(badge => `<span class="product-tag product-tag--${badge.toLowerCase()}">${badge}</span>`).join('')}</span>` : ''}<span class="view-piece">VIEW DETAILS <span aria-hidden="true">↗</span></span></a><div class="product-meta"><div><p class="product-category">${item.type} · ${item.color}</p><h3><a href="product-details.html?piece=${item.id}">${escapeHTML(item.name)}</a></h3></div><p class="price">${pricing}</p></div></article>`;
 }
 
 function renderCatalogues() {
-  qsa('[data-catalog]').forEach(container => { const ids = COLLECTIONS[container.dataset.catalog || 'all'] || COLLECTIONS.all; container.innerHTML = ids.map(id => PIECES.find(item => item.id === id)).filter(Boolean).map(productCard).join(''); });
+  qsa('[data-catalog]').forEach(container => { const collection = container.dataset.catalog || 'all'; const ids = COLLECTIONS[collection] || COLLECTIONS.all; const reveal = ['homeSale','new','sale'].includes(collection) && !container.hasAttribute('data-slider-track'); container.innerHTML = ids.map(id => PIECES.find(item => item.id === id)).filter(Boolean).map(item => productCard(item, reveal)).join(''); });
 }
 
 const themeSVG = theme => theme === 'dark'
@@ -153,4 +153,4 @@ function initUtilities() {
   nodes.forEach((node, index) => { node.style.setProperty('--reveal-delay', `${Math.min(index % 4, 3) * 90}ms`); observer.observe(node); });
 }
 
-document.addEventListener('DOMContentLoaded', () => { renderCatalogues(); initThemeAndDirection(); initNavigation(); initSliders(); initShopFilters(); initQuickView(); initProductDetail(); initContact(); initAuth(); initUtilities(); });
+document.addEventListener('DOMContentLoaded', () => { renderCatalogues(); initThemeAndDirection(); initNavigation(); initSliders(); initShopFilters(); initQuickView(); initProductDetail(); initContact(); initAuth(); initUtilities(); document.documentElement.classList.add('reveal-ready'); });
