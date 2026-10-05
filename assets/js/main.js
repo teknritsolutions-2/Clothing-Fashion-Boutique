@@ -61,7 +61,8 @@ const COLLECTIONS = {
 const qs = (selector, scope = document) => scope.querySelector(selector);
 const qsa = (selector, scope = document) => [...scope.querySelectorAll(selector)];
 const money = value => new Intl.NumberFormat(SERAINE_CONFIG.locale, {style:'currency',currency:SERAINE_CONFIG.currency,maximumFractionDigits:0}).format(value);
-const imagePath = filename => `../assets/images/${filename}`;
+const assetPrefix = location.pathname.includes('/pages/') ? '../assets/' : 'assets/';
+const imagePath = filename => `${assetPrefix}images/${filename}`;
 const escapeHTML = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
 
 function productCard(item, reveal = false) {

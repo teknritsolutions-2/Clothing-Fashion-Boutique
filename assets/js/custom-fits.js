@@ -24,7 +24,8 @@ const STATUS_COPY = {
 const cqs = (selector, scope=document) => scope.querySelector(selector);
 const cqsa = (selector, scope=document) => [...scope.querySelectorAll(selector)];
 const safe = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
-const customImage = file => `../assets/images/${file}`;
+const assetPrefix = location.pathname.includes('/pages/') ? '../assets/' : 'assets/';
+const customImage = file => `${assetPrefix}images/${file}`;
 
 function enquiryURL(item, variant, intent='Store visit') {
   const params = new URLSearchParams({type:intent,piece:item.name,message:`Custom Fits reference: ${item.name}; ${variant.material}; ${variant.color}. Please confirm availability and fit options.`});
