@@ -12,7 +12,7 @@ python3 -m http.server 8080
 ```
 
 Then visit:
-- Home Page 1: `http://localhost:8080/pages/index.html`
+- Home Page 1: `http://localhost:8080/` (or `http://localhost:8080/index.html`)
 - Home Page 2: `http://localhost:8080/pages/home-2.html`
 - Custom Fits: `http://localhost:8080/pages/custom-fits.html`
 - Login: `http://localhost:8080/pages/login.html`

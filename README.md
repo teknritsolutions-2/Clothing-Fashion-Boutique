@@ -12,26 +12,26 @@ SÉRAINE is designed as a practical, welcoming fashion boutique for curated ever
 
 ## Major Pages
 
-All website pages reside in the `pages/` directory:
+The boutique storefront features a root entry point alongside secondary pages in the `pages/` directory:
 
-- **`index.html`**: Eight-section Home Page 1 with occasion, clothing-type, arrival, climate, personal-fit and lookbook routes.
-- **`home-2.html`**: Distinct outfit-planning Home Page 2 organized around climate, the week ahead and personal fit support.
-- **`about.html`**: Everyday clothing philosophy, sensible fabrics and personal fit.
-- **`shop.html`**: Full 24-piece catalogue with simultaneous filtering and sorting.
-- **`custom-fits.html`**: Ten configurable sample garments with gender and garment filters, variant-level availability, a review-before-confirmation request builder and store-visit handoff.
-- **`product-details.html`**: Dynamic four-image garment gallery with climate, fabric and custom-fit enquiry.
-- **`new-arrivals.html`**: Exactly 12 new styles generated from the canonical catalogue.
-- **`sale.html`**: Exactly nine reduced styles with original and sale prices.
-- **`lookbook.html`**: Practical Workday, Weekend & Travel, and Occasion outfit stories.
-- **`style-guide.html`**: Practical guides covering fit, weather, colour and outfit building.
-- **`article-details.html`**: Long-form practical wardrobe guidance.
-- **`contact.html`**: Palermo boutique location, embedded interactive map, visiting hours, and client enquiry form.
-- **`faq.html`**: Accordion disclosures addressing sizing, care, ordering, and appointments.
-- **`privacy.html`**: Clear privacy policy detailing local preference storage and enquiry handling.
-- **`terms.html`**: Boutique terms of service, intellectual property, and sales conditions.
-- **`404.html`**: Bespoke error recovery page with direct navigation back to current collections.
-- **`login.html`**: Focused standalone account screen with browser validation, password visibility control and an honest pending-integration state.
-- **`register.html`**: Matching account-creation screen with confirmation validation, password visibility controls and accurate no-backend messaging.
+- **`index.html`**: Primary project entrypoint in the root directory. Eight-section Home Page 1 with occasion, clothing-type, arrival, climate, personal-fit and lookbook routes.
+- **`pages/home-2.html`**: Distinct outfit-planning Home Page 2 organized around climate, the week ahead and personal fit support.
+- **`pages/about.html`**: Everyday clothing philosophy, sensible fabrics and personal fit.
+- **`pages/shop.html`**: Full 24-piece catalogue with simultaneous filtering and sorting.
+- **`pages/custom-fits.html`**: Ten configurable sample garments with gender and garment filters, variant-level availability, a review-before-confirmation request builder and store-visit handoff.
+- **`pages/product-details.html`**: Dynamic four-image garment gallery with climate, fabric and custom-fit enquiry.
+- **`pages/new-arrivals.html`**: Exactly 12 new styles generated from the canonical catalogue.
+- **`pages/sale.html`**: Exactly nine reduced styles with original and sale prices.
+- **`pages/lookbook.html`**: Practical Workday, Weekend & Travel, and Occasion outfit stories.
+- **`pages/style-guide.html`**: Practical guides covering fit, weather, colour and outfit building.
+- **`pages/article-details.html`**: Long-form practical wardrobe guidance.
+- **`pages/contact.html`**: Palermo boutique location, embedded interactive map, visiting hours, and client enquiry form.
+- **`pages/faq.html`**: Accordion disclosures addressing sizing, care, ordering, and appointments.
+- **`pages/privacy.html`**: Clear privacy policy detailing local preference storage and enquiry handling.
+- **`pages/terms.html`**: Boutique terms of service, intellectual property, and sales conditions.
+- **`pages/404.html`**: Bespoke error recovery page with direct navigation back to current collections.
+- **`pages/login.html`**: Focused standalone account screen with browser validation, password visibility control and an honest pending-integration state.
+- **`pages/register.html`**: Matching account-creation screen with confirmation validation, password visibility controls and accurate no-backend messaging.
 
 ## Key Features
 
@@ -57,7 +57,7 @@ No build tools, compilation, or package manager installations are required. Serv
 python3 -m http.server 8080
 ```
 
-Then open `http://localhost:8080/pages/index.html` in any modern web browser.
+Then open `http://localhost:8080/` (or `http://localhost:8080/index.html`) in any modern web browser.
 
 ## File Structure
 
@@ -79,7 +79,6 @@ Clothing & Fashion Boutique/
 │   └── fonts/
 │
 ├── pages/
-│   ├── index.html
 │   ├── home-2.html
 │   ├── about.html
 │   ├── shop.html
@@ -107,5 +106,6 @@ Clothing & Fashion Boutique/
 │   ├── cormorant-garamond-license.txt
 │   └── manrope-license.txt
 │
+├── index.html
 └── README.md
 ```

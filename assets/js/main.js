@@ -62,13 +62,14 @@ const qs = (selector, scope = document) => scope.querySelector(selector);
 const qsa = (selector, scope = document) => [...scope.querySelectorAll(selector)];
 const money = value => new Intl.NumberFormat(SERAINE_CONFIG.locale, {style:'currency',currency:SERAINE_CONFIG.currency,maximumFractionDigits:0}).format(value);
 const assetPrefix = location.pathname.includes('/pages/') ? '../assets/' : 'assets/';
+const pagePrefix = location.pathname.includes('/pages/') ? '' : 'pages/';
 const imagePath = filename => `${assetPrefix}images/${filename}`;
 const escapeHTML = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
 
 function productCard(item, reveal = false) {
   const image = item.images[0]; const badges = [item.isNew ? 'NEW' : '', item.sale ? 'SALE' : ''].filter(Boolean);
   const pricing = item.original ? `<del>${money(item.original)}</del> <span>${money(item.price)}</span>` : `<span>${money(item.price)}</span>`;
-  return `<article class="product-card${reveal ? ' reveal' : ''}" data-product-card data-piece="${item.id}" data-gender="${item.gender}" data-occasion="${item.occasion}" data-type="${item.type}" data-climate="${item.climate}" data-price="${item.price}" data-new="${item.isNew}" data-sale="${item.sale}"><a class="product-photo" data-open-piece="${item.id}" href="product-details.html?piece=${item.id}"><img class="product-image" src="${imagePath(image.src)}" alt="${escapeHTML(image.alt)}" width="1000" height="1250" loading="lazy" decoding="async">${badges.length ? `<span class="product-badges">${badges.map(badge => `<span class="product-tag product-tag--${badge.toLowerCase()}">${badge}</span>`).join('')}</span>` : ''}<span class="view-piece">VIEW DETAILS <span aria-hidden="true">↗</span></span></a><div class="product-meta"><div><p class="product-category">${item.type} · ${item.color}</p><h3><a href="product-details.html?piece=${item.id}">${escapeHTML(item.name)}</a></h3></div><p class="price">${pricing}</p></div></article>`;
+  return `<article class="product-card${reveal ? ' reveal' : ''}" data-product-card data-piece="${item.id}" data-gender="${item.gender}" data-occasion="${item.occasion}" data-type="${item.type}" data-climate="${item.climate}" data-price="${item.price}" data-new="${item.isNew}" data-sale="${item.sale}"><a class="product-photo" data-open-piece="${item.id}" href="${pagePrefix}product-details.html?piece=${item.id}"><img class="product-image" src="${imagePath(image.src)}" alt="${escapeHTML(image.alt)}" width="1000" height="1250" loading="lazy" decoding="async">${badges.length ? `<span class="product-badges">${badges.map(badge => `<span class="product-tag product-tag--${badge.toLowerCase()}">${badge}</span>`).join('')}</span>` : ''}<span class="view-piece">VIEW DETAILS <span aria-hidden="true">↗</span></span></a><div class="product-meta"><div><p class="product-category">${item.type} · ${item.color}</p><h3><a href="${pagePrefix}product-details.html?piece=${item.id}">${escapeHTML(item.name)}</a></h3></div><p class="price">${pricing}</p></div></article>`;
 }
 
 function renderCatalogues() {
@@ -121,7 +122,7 @@ function initAuth() {
   }));
 }
 
-function fillPieceDialog(item, dialog) { const image = item.images[0]; qs('#piece-content', dialog).innerHTML = `<img src="${imagePath(image.src)}" alt="${escapeHTML(image.alt)}" width="800" height="1000"><div><p class="eyebrow">${item.gender} · ${item.type}</p><h2 id="piece-title">${escapeHTML(item.name)}</h2><p class="dialog-price">${money(item.price)}</p><p>${item.material}, designed for ${item.climate.toLowerCase()} and ${item.occasion.toLowerCase()} dressing.</p><a class="button" href="product-details.html?piece=${item.id}">VIEW FULL DETAILS</a></div>`; }
+function fillPieceDialog(item, dialog) { const image = item.images[0]; qs('#piece-content', dialog).innerHTML = `<img src="${imagePath(image.src)}" alt="${escapeHTML(image.alt)}" width="800" height="1000"><div><p class="eyebrow">${item.gender} · ${item.type}</p><h2 id="piece-title">${escapeHTML(item.name)}</h2><p class="dialog-price">${money(item.price)}</p><p>${item.material}, designed for ${item.climate.toLowerCase()} and ${item.occasion.toLowerCase()} dressing.</p><a class="button" href="${pagePrefix}product-details.html?piece=${item.id}">VIEW FULL DETAILS</a></div>`; }
 
 function initQuickView() {
   const dialog = qs('#piece-dialog'); if (!dialog) return;
