@@ -57,7 +57,7 @@ No build tools, compilation, or package manager installations are required. Serv
 python3 -m http.server 8080
 ```
 
-Then open `http://localhost:8080/` in any modern web browser.
+Then open `http://localhost:8080/pages/index.html` in any modern web browser.
 
 ## File Structure
 
